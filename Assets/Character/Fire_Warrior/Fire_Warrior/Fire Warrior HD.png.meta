@@ -1,0 +1,3814 @@
+fileFormatVersion: 2
+guid: b7c98680ddea27743befd3bf1971f077
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fire Warrior HD_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1313
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5724c89a1f14c48bcea33d598f9c18
+      internalID: -1386388822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1313
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacaeda52984b4041a266f8a6402c78b
+      internalID: 847930203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_2
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1313
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d79d026c61d61f44a80c65155419ad9
+      internalID: -810695476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1313
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128a2d6194167b649a2ff1a893759222
+      internalID: 1993682720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_4
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1313
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9b2e8d2a239e94eb5a41e85ba04301
+      internalID: -16697394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_5
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1313
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6380006dccf1b4098f5288d60ba69d
+      internalID: -1591210750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_6
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1313
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca34446fbcb71b14eac9ba41364421e9
+      internalID: -988978430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_7
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1313
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ad95b812fbcfd4da571ad05d3825bb
+      internalID: 1952168691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_8
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1313
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c957ca6bd706d48a8c520a89a00d13
+      internalID: 1995995221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_9
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1313
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc374e2c144be3345965a4a9581531ae
+      internalID: 1638185538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1231
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314133f164218e645b10ec6e70ea82fb
+      internalID: 1888508079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1231
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575e272f61584ce45a8b714a691183b3
+      internalID: -1400482544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_12
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1231
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d407d38e4b8e1744f9ae7c5f55221e44
+      internalID: -1907231813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_13
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1231
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7fd9eba03d2df74fb26e5633d339868
+      internalID: -844605902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_14
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1231
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a386f0ed9531c46b24ed785e08a1b4
+      internalID: 1966923313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_15
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1231
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c5ecff8f23b5143aa71a708d2b2ec2
+      internalID: -238921769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_16
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1231
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e9cfbf822bb2543a9bec992df81604
+      internalID: -1992589124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_17
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1231
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d87cfb5511217f4ca1b8c1f03ee2a80
+      internalID: -1770288644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_18
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1231
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8f85be6b0526a4e88bbceb17f21c21
+      internalID: 1953577485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_19
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1231
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e4f7244148947499336a9522f12758
+      internalID: -1061317367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1149
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4899a7e0fa6dda4aa2bf1f1d48c66d8
+      internalID: -1797837587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_21
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1149
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28666aefc1a6aad4baa47838c84659ac
+      internalID: -1984835027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_22
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1149
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf173a2387fa2ee42acddbe900993b60
+      internalID: 592893157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_23
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1149
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c2c40280298ff499798860f7a64ea0
+      internalID: 702104607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_24
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1149
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7678b426823ff5c40b20e057e6622862
+      internalID: -1692948875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_25
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1149
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a15aff3eb6d4347ae641a607dd72d2
+      internalID: 2043045804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_26
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1149
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2be7d897d35e04191f8abea06d14c9
+      internalID: 1284376165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_27
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1149
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3d0953a9461c2418d5bb8fb6239210
+      internalID: -97598317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_28
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1149
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87cc18c8fd95cdd4db3da47ba8e83c9f
+      internalID: 1989263460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_29
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1149
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f30484f5d5e3447b87ae19cc85707b
+      internalID: -2037460755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1067
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15110f92d34eba44a81b2741488ac0b
+      internalID: 1269172558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_31
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1067
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e7e95d35645e04fac3899cd664f04c
+      internalID: -711948212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_32
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1067
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39acf27251691c4f8ce8cbbeb7aea1b
+      internalID: -1868288770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_33
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1067
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec05df39593e8cc498ac26df6175f7a0
+      internalID: 2114186528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_34
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1067
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32956b2d153e104290ef2a7f125058e
+      internalID: 1527362155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_35
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1067
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cd657e3efaa33419205068d73c4523
+      internalID: -1408192490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_36
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1067
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d5a493aa32e7444b481da2844e62ad
+      internalID: 2097471679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_37
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1067
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021ae65c381688c4c83add78a25994c1
+      internalID: 1422518757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_38
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1067
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61ffbc48775950499ce0b463ab73e58
+      internalID: 181885293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_39
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1067
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405b4b8921e2a8949854fd0a1f572c78
+      internalID: -1115888566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 985
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143827669a1cd114589f48457ad23bcf
+      internalID: -10413702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_41
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 985
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef18995b90c317948ad5ad72c2770dc5
+      internalID: -1282461405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_42
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 985
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c514eaec931cef441a93cfe0d8125aca
+      internalID: 155627901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_43
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 985
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ce0f8b1c926444baf84e7cda7f03fc
+      internalID: 1445135193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_44
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 985
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb104cbb551ddf429d9285b03f8ccba
+      internalID: -1002283010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_45
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 985
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c041aa46045f2a64fbef798dd25718e0
+      internalID: -630298406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_46
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 985
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2d8df914a6dee42bef28e9f93818ef
+      internalID: -1901212184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_47
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 985
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7016fed757a8da74b9b6d4c80a211f7a
+      internalID: 849720009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_48
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 985
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86792d2f7966d5941a1c2f89623422ed
+      internalID: 100655596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_49
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 985
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca29ee5225c65f42a33c1cbff3650e6
+      internalID: 1300905974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 903
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aff83818c6878240ae19672f1fe503b
+      internalID: -771983107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_51
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 903
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955dac9575204a6478a559c7671de7d0
+      internalID: -108002497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_52
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 903
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3556888732b3814c967b0c8910f6179
+      internalID: 374048340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_53
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 903
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7482ff22a1a234c82e0b235122bb92
+      internalID: -619296066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_54
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 903
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f444e0500f38e3e4c91d55714b60f376
+      internalID: -1980523909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_55
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 903
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9abd511b2c6574ab57bd57a6853b8e
+      internalID: 1242513382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_56
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 903
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2d709236c38354c8b5e577fbb055a3
+      internalID: 420744409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_57
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 903
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ab7fb5671549b45bcb53bcd6dcf2ba
+      internalID: 847963519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_58
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 903
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6a5029bb291ce4c93541c81618346d
+      internalID: -1388186842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_59
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 903
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8be72c6032f92438beb865c9ca090f
+      internalID: -1778079705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 821
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ca49eafb3689d4ba3380712450b9e4
+      internalID: 1379508489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_61
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 821
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82701fbc11645954cb053871667382c2
+      internalID: -789878845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_62
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 821
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8807d8c8c63788244bc16c88dcaab662
+      internalID: -1262371891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_63
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 821
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2683a1534f1c8ce4099c20e970754536
+      internalID: -2061982743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_64
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 821
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b597b4284a33e74bb2a7ea25d3b6b55
+      internalID: 351643603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_65
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 821
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6395fbeaf0a3b244fbb4641c1bd23fd8
+      internalID: 207579755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_66
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 821
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e9737381f6fc6488d39f87b142ae52
+      internalID: 109754306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_67
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 821
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d27cac92a53d4541856533281f72915
+      internalID: -1384742415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_68
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 821
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a4e17878f0fd647b049e088a838fd9
+      internalID: -2072772101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_69
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 821
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5546a0f9208d34ab409435b5365cd4
+      internalID: -1698557083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 739
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecef8b36af82f0c4b88688f5508f2fed
+      internalID: 119059502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_71
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 739
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fc714a506ecd84e90d09542b6a5dfd
+      internalID: -536590184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_72
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 739
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92c5d2be82a0684bb58009bdd02b37e
+      internalID: -87713520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_73
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 739
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bba56aff0746184cb9f113890968ebb
+      internalID: -2088062338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_74
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 739
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 775e264733d48794c9cab9dfac744cfb
+      internalID: 595926846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_75
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 739
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0926e0ee451ed49a35c7ab413be450
+      internalID: -150438085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_76
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 739
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df63cb13ae99944d9edc8f0dabc959f
+      internalID: 455842408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_77
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 739
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f36f92b8706814bba2e6698d411439
+      internalID: 1615427722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_78
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 739
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034973ec4e97b5a48987bec5adf5a9ee
+      internalID: 520883382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_79
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 739
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7abd7c9cb2032943807301d39872a95
+      internalID: -1865346782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 657
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b86a410266f674ba73a01cac25f1a8
+      internalID: -278082083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_81
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 657
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1545bbab1093c4c8fb9c3deef8d993
+      internalID: -571228022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_82
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 657
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a5d94441354334dacbda2aa5e658bd
+      internalID: -320243169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_83
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 657
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad259a79189a074192867a52ebdbfdf
+      internalID: 941632535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_84
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 657
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6728475e581a0f74e84efb56bb987022
+      internalID: -1508223162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_85
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 657
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60759c547c610a47893c88237d50460
+      internalID: -744552138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_86
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 657
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ee6be264a4e094aa0883ef9c4e78e1
+      internalID: -1073947813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_87
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 657
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c5ab6f807a6654982f7cdd66548a91
+      internalID: 178761298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_88
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 657
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c320f392034aafe4f97cd41abb9623f8
+      internalID: -836373684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_89
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 657
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164a136420c30b14f87b273480efccdc
+      internalID: 1501060532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 575
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940c036614f700e468cc82b7edfd0f42
+      internalID: 1138026276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_91
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 575
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d81febdb0edae4e992852fbb68a997
+      internalID: -519801483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_92
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 575
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb977eb6c4c56bf4fa5fd42428b92208
+      internalID: -78790751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_93
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 575
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5842a508603a87949b185ad6545b441b
+      internalID: 80779391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_94
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 575
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b858fd2fee5254881ae3fdf226c020
+      internalID: -489704902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_95
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 575
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead3c5329728f4c4a88eea12a54f3532
+      internalID: 1988070415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_96
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 575
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742bf889cae1c4c4baa1f64516dbc3ff
+      internalID: -1067256191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_97
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 575
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f791feb14507108419e51b5db4e98ef3
+      internalID: 455857961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_98
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 575
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f529a25772cc05f4da9bca028438dac3
+      internalID: -810031747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_99
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 575
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930bf21acebcf4346a3a2163217d4056
+      internalID: 361064485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 493
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfd3d65ea41ff945ba223d4bab4b2ac
+      internalID: 1562680536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_101
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 493
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0166b01f540fd9542b6d18b9c62e4dcf
+      internalID: 556741035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_102
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 493
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe877f8837ee3e44baaaa7bc4d9018d
+      internalID: -1619177293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_103
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 493
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f98f7898feccf44b3c9a0656865d4f
+      internalID: -1327247819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_104
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 493
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d832d2b4edc5244902d2915124f9fd
+      internalID: 1552674022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_105
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 493
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b624760032d8fbd40a2c92dff5f05c76
+      internalID: 1858827667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_106
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 493
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3529e68ebfcac43bdc4715aa274d78
+      internalID: -261056205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_107
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 493
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34aa67c7714e8e548b2443935bf3308f
+      internalID: -1691338147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_108
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 493
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103871ebf99f7dd499cf60266bccf57d
+      internalID: 476343009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_109
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 493
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9fc3c3dc988754bb34d8f59f60b1fd
+      internalID: 34957121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 411
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51403fa4709c6274788539d1cf461558
+      internalID: -685117639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_111
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 411
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef63c9f401370b419131fda0a84439f
+      internalID: 1865958716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_112
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 411
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848a461464b1faf4c8ed1fb5137b0e71
+      internalID: 1543844579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_113
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 411
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc345a6b412d6a4587f0fee40848987
+      internalID: -1886827567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_114
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 411
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd3ba9abf8187f45853a15eb54bf8b6
+      internalID: 1296580051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_115
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 411
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1eeec93abe1300419ec35347204fa45
+      internalID: 1729330978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_116
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 411
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d540cdc4fb0e94a937c1ff3d8301fd
+      internalID: -818013440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_117
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 411
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700d178302d4e7244864e2aa398a4caa
+      internalID: 969471852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_118
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 411
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24755fe8a6287d244a7f25aa322dfe86
+      internalID: 197104871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_119
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 411
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e4b134df500f74a9042770f6b369a9
+      internalID: 1923786126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 329
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799668a65e64f774284e61d6943e4339
+      internalID: -107079379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_121
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 329
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35135ae08d9ace848aec7d2aae609710
+      internalID: 1418558309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_122
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 329
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad36c8744c6f4fb4b837c1270b7f47de
+      internalID: 1637632865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_123
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 329
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91eea4a52f6a82458909f01cbf56f55
+      internalID: 1278039398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_124
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 329
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db30a8dfd38ce0f49a6bdcfed3b88391
+      internalID: 1982722532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_125
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 329
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16acb5e6b8fcdcf45b1ba3a62e720b95
+      internalID: -965547971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_126
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 329
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e4f72129131d9409bf6b56b39ac6da
+      internalID: 1027304038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_127
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 329
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18ecd84e8d4306489d75b09b7f3a0d5
+      internalID: -531018421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_128
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 329
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a275096722b72cf44bf97c8a2b49503d
+      internalID: 1497460630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_129
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 329
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3e705fa0d7a6542a9e030398cd97b1
+      internalID: 1839714357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 247
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4aefc573c13854081800033f4295af
+      internalID: -1782870038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_131
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 247
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3fdd901868a0f42b819edf67d18827
+      internalID: 1976403922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_132
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 247
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5ad84aecfa02b49bc53ff5213757ef
+      internalID: -167985476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_133
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 247
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5b458b6932b6a479fec5d67e7fde28
+      internalID: 786910820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_134
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 247
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a82ac662f8c3b84fa9580301869bee2
+      internalID: -306809523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_135
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 247
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674ea9104d9f4844697cc0e04ed6f633
+      internalID: -2142681152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_136
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 247
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e51aa768ed9fa42a713cf84f1ca17a
+      internalID: -314653182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_137
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 247
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156ec3f4a555e77459051bc768a2a624
+      internalID: -1893892816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_138
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 247
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d84bc1f52cf144595b892f0cd1b130
+      internalID: -2119830523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_139
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 247
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a6521c3f4c33742b9093123f95eb2b
+      internalID: -698983861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 165
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b26cda9b0ad1af4695dd4c4d2c5136b
+      internalID: 317043743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_141
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 165
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787c5f67a57425c469cdd9400be91fd9
+      internalID: -61392017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_142
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 165
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501105a39074c1a4a9075850a2c91e8e
+      internalID: -1893424864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_143
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 165
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a5faaf29335aa438d4d9f111263cdd
+      internalID: -1641155094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_144
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 165
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25ba32b0b3ab694f8241f61da2743a7
+      internalID: 1720028812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_145
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 165
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e0c45a9fe2546458fa6b367a338aa0
+      internalID: -562163758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_146
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 165
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce943bc523e04824dac7f900bb64a8fc
+      internalID: -1391728604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_147
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 165
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96e1272d3e91c648ac67cbbf709e3cc
+      internalID: -1995755947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_148
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 165
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428937755b540724fa6c34eb3dc39c63
+      internalID: 258027017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_149
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 83
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c389eeb3797e74d99710ebc7772a9f
+      internalID: 1194529935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_150
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 83
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3399de388e836d4488197a40f6eb53a6
+      internalID: 384425296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_151
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 83
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02903e060b4beaf409c982e88bd11bc0
+      internalID: -1437403912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_152
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 83
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c92a6b317b0bc4f9a87b282b38b556
+      internalID: 904626136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_153
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 83
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf93866fecfa4c47bce821322038e23
+      internalID: 115194034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_154
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 83
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4251cce8c7b82b04f90e873d8bee2ca9
+      internalID: -910304237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_155
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 83
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e693d52d78486447b8f36c0ad3bf555
+      internalID: -345105004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_156
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 83
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0dd34311e2af84da7bedfd2060b6c2
+      internalID: 212831597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_157
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 83
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8a290a0f1869444aae27f7ca3089d9
+      internalID: 1507986356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_158
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c61cf3070596bb409b9a11467aac257
+      internalID: 2072702406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_159
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff5dd42fbf761247993ed45fc012201
+      internalID: -619337165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_160
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013b1b71cb493ef41acd7e14a09f408e
+      internalID: 1710223795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_161
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e83d5278fdf9244b3591805702e6df
+      internalID: 1115259674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_162
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b922d8b78a7ccd4da6ad85c7e92b96c
+      internalID: -876147377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_163
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471ff74d75f02904c9d884d1e37c2439
+      internalID: 1517655345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_164
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cd74859efd3cd4cb7032b9361b7aa0
+      internalID: -1626862805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_165
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b7e290ee41caa48a6ab9b60afd0144
+      internalID: 25705757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Warrior HD_166
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1
+        width: 145
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82b2864312b58c4e919cef9143edb5b
+      internalID: -226734857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Fire Warrior HD_0: -1386388822
+      Fire Warrior HD_1: 847930203
+      Fire Warrior HD_10: 1888508079
+      Fire Warrior HD_100: 1562680536
+      Fire Warrior HD_101: 556741035
+      Fire Warrior HD_102: -1619177293
+      Fire Warrior HD_103: -1327247819
+      Fire Warrior HD_104: 1552674022
+      Fire Warrior HD_105: 1858827667
+      Fire Warrior HD_106: -261056205
+      Fire Warrior HD_107: -1691338147
+      Fire Warrior HD_108: 476343009
+      Fire Warrior HD_109: 34957121
+      Fire Warrior HD_11: -1400482544
+      Fire Warrior HD_110: -685117639
+      Fire Warrior HD_111: 1865958716
+      Fire Warrior HD_112: 1543844579
+      Fire Warrior HD_113: -1886827567
+      Fire Warrior HD_114: 1296580051
+      Fire Warrior HD_115: 1729330978
+      Fire Warrior HD_116: -818013440
+      Fire Warrior HD_117: 969471852
+      Fire Warrior HD_118: 197104871
+      Fire Warrior HD_119: 1923786126
+      Fire Warrior HD_12: -1907231813
+      Fire Warrior HD_120: -107079379
+      Fire Warrior HD_121: 1418558309
+      Fire Warrior HD_122: 1637632865
+      Fire Warrior HD_123: 1278039398
+      Fire Warrior HD_124: 1982722532
+      Fire Warrior HD_125: -965547971
+      Fire Warrior HD_126: 1027304038
+      Fire Warrior HD_127: -531018421
+      Fire Warrior HD_128: 1497460630
+      Fire Warrior HD_129: 1839714357
+      Fire Warrior HD_13: -844605902
+      Fire Warrior HD_130: -1782870038
+      Fire Warrior HD_131: 1976403922
+      Fire Warrior HD_132: -167985476
+      Fire Warrior HD_133: 786910820
+      Fire Warrior HD_134: -306809523
+      Fire Warrior HD_135: -2142681152
+      Fire Warrior HD_136: -314653182
+      Fire Warrior HD_137: -1893892816
+      Fire Warrior HD_138: -2119830523
+      Fire Warrior HD_139: -698983861
+      Fire Warrior HD_14: 1966923313
+      Fire Warrior HD_140: 317043743
+      Fire Warrior HD_141: -61392017
+      Fire Warrior HD_142: -1893424864
+      Fire Warrior HD_143: -1641155094
+      Fire Warrior HD_144: 1720028812
+      Fire Warrior HD_145: -562163758
+      Fire Warrior HD_146: -1391728604
+      Fire Warrior HD_147: -1995755947
+      Fire Warrior HD_148: 258027017
+      Fire Warrior HD_149: 1194529935
+      Fire Warrior HD_15: -238921769
+      Fire Warrior HD_150: 384425296
+      Fire Warrior HD_151: -1437403912
+      Fire Warrior HD_152: 904626136
+      Fire Warrior HD_153: 115194034
+      Fire Warrior HD_154: -910304237
+      Fire Warrior HD_155: -345105004
+      Fire Warrior HD_156: 212831597
+      Fire Warrior HD_157: 1507986356
+      Fire Warrior HD_158: 2072702406
+      Fire Warrior HD_159: -619337165
+      Fire Warrior HD_16: -1992589124
+      Fire Warrior HD_160: 1710223795
+      Fire Warrior HD_161: 1115259674
+      Fire Warrior HD_162: -876147377
+      Fire Warrior HD_163: 1517655345
+      Fire Warrior HD_164: -1626862805
+      Fire Warrior HD_165: 25705757
+      Fire Warrior HD_166: -226734857
+      Fire Warrior HD_17: -1770288644
+      Fire Warrior HD_18: 1953577485
+      Fire Warrior HD_19: -1061317367
+      Fire Warrior HD_2: -810695476
+      Fire Warrior HD_20: -1797837587
+      Fire Warrior HD_21: -1984835027
+      Fire Warrior HD_22: 592893157
+      Fire Warrior HD_23: 702104607
+      Fire Warrior HD_24: -1692948875
+      Fire Warrior HD_25: 2043045804
+      Fire Warrior HD_26: 1284376165
+      Fire Warrior HD_27: -97598317
+      Fire Warrior HD_28: 1989263460
+      Fire Warrior HD_29: -2037460755
+      Fire Warrior HD_3: 1993682720
+      Fire Warrior HD_30: 1269172558
+      Fire Warrior HD_31: -711948212
+      Fire Warrior HD_32: -1868288770
+      Fire Warrior HD_33: 2114186528
+      Fire Warrior HD_34: 1527362155
+      Fire Warrior HD_35: -1408192490
+      Fire Warrior HD_36: 2097471679
+      Fire Warrior HD_37: 1422518757
+      Fire Warrior HD_38: 181885293
+      Fire Warrior HD_39: -1115888566
+      Fire Warrior HD_4: -16697394
+      Fire Warrior HD_40: -10413702
+      Fire Warrior HD_41: -1282461405
+      Fire Warrior HD_42: 155627901
+      Fire Warrior HD_43: 1445135193
+      Fire Warrior HD_44: -1002283010
+      Fire Warrior HD_45: -630298406
+      Fire Warrior HD_46: -1901212184
+      Fire Warrior HD_47: 849720009
+      Fire Warrior HD_48: 100655596
+      Fire Warrior HD_49: 1300905974
+      Fire Warrior HD_5: -1591210750
+      Fire Warrior HD_50: -771983107
+      Fire Warrior HD_51: -108002497
+      Fire Warrior HD_52: 374048340
+      Fire Warrior HD_53: -619296066
+      Fire Warrior HD_54: -1980523909
+      Fire Warrior HD_55: 1242513382
+      Fire Warrior HD_56: 420744409
+      Fire Warrior HD_57: 847963519
+      Fire Warrior HD_58: -1388186842
+      Fire Warrior HD_59: -1778079705
+      Fire Warrior HD_6: -988978430
+      Fire Warrior HD_60: 1379508489
+      Fire Warrior HD_61: -789878845
+      Fire Warrior HD_62: -1262371891
+      Fire Warrior HD_63: -2061982743
+      Fire Warrior HD_64: 351643603
+      Fire Warrior HD_65: 207579755
+      Fire Warrior HD_66: 109754306
+      Fire Warrior HD_67: -1384742415
+      Fire Warrior HD_68: -2072772101
+      Fire Warrior HD_69: -1698557083
+      Fire Warrior HD_7: 1952168691
+      Fire Warrior HD_70: 119059502
+      Fire Warrior HD_71: -536590184
+      Fire Warrior HD_72: -87713520
+      Fire Warrior HD_73: -2088062338
+      Fire Warrior HD_74: 595926846
+      Fire Warrior HD_75: -150438085
+      Fire Warrior HD_76: 455842408
+      Fire Warrior HD_77: 1615427722
+      Fire Warrior HD_78: 520883382
+      Fire Warrior HD_79: -1865346782
+      Fire Warrior HD_8: 1995995221
+      Fire Warrior HD_80: -278082083
+      Fire Warrior HD_81: -571228022
+      Fire Warrior HD_82: -320243169
+      Fire Warrior HD_83: 941632535
+      Fire Warrior HD_84: -1508223162
+      Fire Warrior HD_85: -744552138
+      Fire Warrior HD_86: -1073947813
+      Fire Warrior HD_87: 178761298
+      Fire Warrior HD_88: -836373684
+      Fire Warrior HD_89: 1501060532
+      Fire Warrior HD_9: 1638185538
+      Fire Warrior HD_90: 1138026276
+      Fire Warrior HD_91: -519801483
+      Fire Warrior HD_92: -78790751
+      Fire Warrior HD_93: 80779391
+      Fire Warrior HD_94: -489704902
+      Fire Warrior HD_95: 1988070415
+      Fire Warrior HD_96: -1067256191
+      Fire Warrior HD_97: 455857961
+      Fire Warrior HD_98: -810031747
+      Fire Warrior HD_99: 361064485
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
