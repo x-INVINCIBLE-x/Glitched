@@ -99,8 +99,8 @@ public class Player : Entity
         if (Input.GetKeyDown(KeyCode.F) && skillManager.fireThrower.CanUseSkill())
             stateMachine.ChangeState(fireThrowerState);
 
-        if (Input.GetKeyDown(KeyCode.B) && skillManager.fireBreath.CanUseSkill())
-            stateMachine.ChangeState(fireBreathState);
+        //if (Input.GetKeyDown(KeyCode.B) && skillManager.fireBreath.CanUseSkill())
+        //    stateMachine.ChangeState(fireBreathState);
 
         if (Input.GetKeyDown(KeyCode.U) && skillManager.fireSword.CanUseSkill())
             stateMachine.ChangeState(fireSwordState);
