@@ -127,11 +127,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1313
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1312
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -148,11 +148,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 146
-        y: 1313
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1312
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -165,15 +165,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_2
+      name: Fire Warrior HD_10
       rect:
         serializedVersion: 2
-        x: 292
-        y: 1313
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 1230
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -186,15 +186,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_3
+      name: Fire Warrior HD_100
       rect:
         serializedVersion: 2
-        x: 438
-        y: 1313
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 492
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -207,15 +207,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_4
+      name: Fire Warrior HD_101
       rect:
         serializedVersion: 2
-        x: 584
-        y: 1313
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 492
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -228,15 +228,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_5
+      name: Fire Warrior HD_102
       rect:
         serializedVersion: 2
-        x: 730
-        y: 1313
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 292
+        y: 492
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -249,15 +249,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_6
+      name: Fire Warrior HD_103
       rect:
         serializedVersion: 2
-        x: 876
-        y: 1313
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 438
+        y: 492
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -270,15 +270,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_7
+      name: Fire Warrior HD_104
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 1313
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 584
+        y: 492
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -291,15 +291,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_8
+      name: Fire Warrior HD_105
       rect:
         serializedVersion: 2
-        x: 1168
-        y: 1313
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 730
+        y: 492
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -312,15 +312,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_9
+      name: Fire Warrior HD_106
       rect:
         serializedVersion: 2
-        x: 1314
-        y: 1313
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 876
+        y: 492
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -333,15 +333,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_10
+      name: Fire Warrior HD_107
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1231
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1022
+        y: 492
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -354,15 +354,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_11
+      name: Fire Warrior HD_108
       rect:
         serializedVersion: 2
-        x: 146
-        y: 1231
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1168
+        y: 492
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -375,15 +375,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_12
+      name: Fire Warrior HD_109
       rect:
         serializedVersion: 2
-        x: 292
-        y: 1231
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1314
+        y: 492
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -396,15 +396,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_13
+      name: Fire Warrior HD_11
       rect:
         serializedVersion: 2
-        x: 438
-        y: 1231
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 1230
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -417,15 +417,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_14
+      name: Fire Warrior HD_110
       rect:
         serializedVersion: 2
-        x: 584
-        y: 1231
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 410
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -438,15 +438,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_15
+      name: Fire Warrior HD_111
       rect:
         serializedVersion: 2
-        x: 730
-        y: 1231
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 410
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -459,15 +459,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_16
+      name: Fire Warrior HD_112
       rect:
         serializedVersion: 2
-        x: 876
-        y: 1231
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 292
+        y: 410
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -480,15 +480,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_17
+      name: Fire Warrior HD_113
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 1231
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 438
+        y: 410
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -501,15 +501,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_18
+      name: Fire Warrior HD_114
       rect:
         serializedVersion: 2
-        x: 1168
-        y: 1231
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 584
+        y: 410
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -522,15 +522,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_19
+      name: Fire Warrior HD_115
       rect:
         serializedVersion: 2
-        x: 1314
-        y: 1231
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 730
+        y: 410
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -543,15 +543,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_20
+      name: Fire Warrior HD_116
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1149
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 876
+        y: 410
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -564,15 +564,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_21
+      name: Fire Warrior HD_117
       rect:
         serializedVersion: 2
-        x: 146
-        y: 1149
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1022
+        y: 410
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -585,15 +585,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_22
+      name: Fire Warrior HD_118
       rect:
         serializedVersion: 2
-        x: 292
-        y: 1149
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1168
+        y: 410
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -606,15 +606,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_23
+      name: Fire Warrior HD_119
       rect:
         serializedVersion: 2
-        x: 438
-        y: 1149
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1314
+        y: 410
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -627,15 +627,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_24
+      name: Fire Warrior HD_12
       rect:
         serializedVersion: 2
-        x: 584
-        y: 1149
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 292
+        y: 1230
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -648,15 +648,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_25
+      name: Fire Warrior HD_120
       rect:
         serializedVersion: 2
-        x: 730
-        y: 1149
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 328
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -669,15 +669,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_26
+      name: Fire Warrior HD_121
       rect:
         serializedVersion: 2
-        x: 876
-        y: 1149
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 328
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -690,15 +690,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_27
+      name: Fire Warrior HD_122
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 1149
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 292
+        y: 328
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -711,15 +711,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_28
+      name: Fire Warrior HD_123
       rect:
         serializedVersion: 2
-        x: 1168
-        y: 1149
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 438
+        y: 328
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -732,15 +732,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_29
+      name: Fire Warrior HD_124
       rect:
         serializedVersion: 2
-        x: 1314
-        y: 1149
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 584
+        y: 328
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -753,15 +753,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_30
+      name: Fire Warrior HD_125
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1067
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 730
+        y: 328
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -774,15 +774,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_31
+      name: Fire Warrior HD_126
       rect:
         serializedVersion: 2
-        x: 146
-        y: 1067
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 876
+        y: 328
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -795,15 +795,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_32
+      name: Fire Warrior HD_127
       rect:
         serializedVersion: 2
-        x: 292
-        y: 1067
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1022
+        y: 328
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -816,15 +816,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_33
+      name: Fire Warrior HD_128
       rect:
         serializedVersion: 2
-        x: 438
-        y: 1067
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1168
+        y: 328
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -837,15 +837,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_34
+      name: Fire Warrior HD_129
       rect:
         serializedVersion: 2
-        x: 584
-        y: 1067
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1314
+        y: 328
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -858,15 +858,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_35
+      name: Fire Warrior HD_13
       rect:
         serializedVersion: 2
-        x: 730
-        y: 1067
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 438
+        y: 1230
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -879,15 +879,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_36
+      name: Fire Warrior HD_130
       rect:
         serializedVersion: 2
-        x: 876
-        y: 1067
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 246
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -900,15 +900,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_37
+      name: Fire Warrior HD_131
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 1067
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 246
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -921,15 +921,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_38
+      name: Fire Warrior HD_132
       rect:
         serializedVersion: 2
-        x: 1168
-        y: 1067
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 292
+        y: 246
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -942,15 +942,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_39
+      name: Fire Warrior HD_133
       rect:
         serializedVersion: 2
-        x: 1314
-        y: 1067
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 438
+        y: 246
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -963,15 +963,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_40
+      name: Fire Warrior HD_134
       rect:
         serializedVersion: 2
-        x: 0
-        y: 985
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 584
+        y: 246
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -984,15 +984,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_41
+      name: Fire Warrior HD_135
       rect:
         serializedVersion: 2
-        x: 146
-        y: 985
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 730
+        y: 246
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1005,15 +1005,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_42
+      name: Fire Warrior HD_136
       rect:
         serializedVersion: 2
-        x: 292
-        y: 985
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 876
+        y: 246
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1026,15 +1026,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_43
+      name: Fire Warrior HD_137
       rect:
         serializedVersion: 2
-        x: 438
-        y: 985
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1022
+        y: 246
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1047,15 +1047,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_44
+      name: Fire Warrior HD_138
       rect:
         serializedVersion: 2
-        x: 584
-        y: 985
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1168
+        y: 246
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1068,15 +1068,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_45
+      name: Fire Warrior HD_139
       rect:
         serializedVersion: 2
-        x: 730
-        y: 985
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1314
+        y: 246
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1089,15 +1089,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_46
+      name: Fire Warrior HD_14
       rect:
         serializedVersion: 2
-        x: 876
-        y: 985
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 584
+        y: 1230
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1110,15 +1110,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_47
+      name: Fire Warrior HD_140
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 985
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 164
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1131,15 +1131,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_48
+      name: Fire Warrior HD_141
       rect:
         serializedVersion: 2
-        x: 1168
-        y: 985
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 164
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1152,15 +1152,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_49
+      name: Fire Warrior HD_142
       rect:
         serializedVersion: 2
-        x: 1314
-        y: 985
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 292
+        y: 164
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1173,15 +1173,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_50
+      name: Fire Warrior HD_143
       rect:
         serializedVersion: 2
-        x: 0
-        y: 903
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 438
+        y: 164
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1194,15 +1194,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_51
+      name: Fire Warrior HD_144
       rect:
         serializedVersion: 2
-        x: 146
-        y: 903
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 584
+        y: 164
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1215,15 +1215,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_52
+      name: Fire Warrior HD_145
       rect:
         serializedVersion: 2
-        x: 292
-        y: 903
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 730
+        y: 164
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1236,15 +1236,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_53
+      name: Fire Warrior HD_146
       rect:
         serializedVersion: 2
-        x: 438
-        y: 903
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 876
+        y: 164
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1257,15 +1257,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_54
+      name: Fire Warrior HD_147
       rect:
         serializedVersion: 2
-        x: 584
-        y: 903
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1022
+        y: 164
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1278,15 +1278,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_55
+      name: Fire Warrior HD_148
       rect:
         serializedVersion: 2
-        x: 730
-        y: 903
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1168
+        y: 164
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1299,15 +1299,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_56
+      name: Fire Warrior HD_149
       rect:
         serializedVersion: 2
-        x: 876
-        y: 903
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 82
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1320,15 +1320,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_57
+      name: Fire Warrior HD_15
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 903
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 730
+        y: 1230
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1341,15 +1341,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_58
+      name: Fire Warrior HD_150
       rect:
         serializedVersion: 2
-        x: 1168
-        y: 903
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 82
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1362,15 +1362,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_59
+      name: Fire Warrior HD_151
       rect:
         serializedVersion: 2
-        x: 1314
-        y: 903
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 292
+        y: 82
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1383,15 +1383,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_60
+      name: Fire Warrior HD_152
       rect:
         serializedVersion: 2
-        x: 0
-        y: 821
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 438
+        y: 82
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1404,15 +1404,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_61
+      name: Fire Warrior HD_153
       rect:
         serializedVersion: 2
-        x: 146
-        y: 821
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 584
+        y: 82
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1425,15 +1425,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_62
+      name: Fire Warrior HD_154
       rect:
         serializedVersion: 2
-        x: 292
-        y: 821
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 730
+        y: 82
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1446,15 +1446,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_63
+      name: Fire Warrior HD_155
       rect:
         serializedVersion: 2
-        x: 438
-        y: 821
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 876
+        y: 82
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1467,15 +1467,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_64
+      name: Fire Warrior HD_156
       rect:
         serializedVersion: 2
-        x: 584
-        y: 821
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1022
+        y: 82
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1488,15 +1488,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_65
+      name: Fire Warrior HD_157
       rect:
         serializedVersion: 2
-        x: 730
-        y: 821
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1168
+        y: 82
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1509,15 +1509,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_66
+      name: Fire Warrior HD_158
       rect:
         serializedVersion: 2
-        x: 876
-        y: 821
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1530,15 +1530,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_67
+      name: Fire Warrior HD_159
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 821
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 0
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1551,15 +1551,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_68
+      name: Fire Warrior HD_16
       rect:
         serializedVersion: 2
-        x: 1168
-        y: 821
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 876
+        y: 1230
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1572,15 +1572,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_69
+      name: Fire Warrior HD_160
       rect:
         serializedVersion: 2
-        x: 1314
-        y: 821
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 292
+        y: 0
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1593,15 +1593,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_70
+      name: Fire Warrior HD_161
       rect:
         serializedVersion: 2
-        x: 0
-        y: 739
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 438
+        y: 0
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1614,15 +1614,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_71
+      name: Fire Warrior HD_162
       rect:
         serializedVersion: 2
-        x: 146
-        y: 739
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 584
+        y: 0
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1635,15 +1635,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_72
+      name: Fire Warrior HD_163
       rect:
         serializedVersion: 2
-        x: 292
-        y: 739
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 730
+        y: 0
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1656,15 +1656,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_73
+      name: Fire Warrior HD_164
       rect:
         serializedVersion: 2
-        x: 438
-        y: 739
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 876
+        y: 0
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1677,15 +1677,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_74
+      name: Fire Warrior HD_165
       rect:
         serializedVersion: 2
-        x: 584
-        y: 739
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1022
+        y: 0
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1698,15 +1698,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_75
+      name: Fire Warrior HD_166
       rect:
         serializedVersion: 2
-        x: 730
-        y: 739
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1168
+        y: 0
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1719,15 +1719,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_76
+      name: Fire Warrior HD_17
       rect:
         serializedVersion: 2
-        x: 876
-        y: 739
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1022
+        y: 1230
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1740,15 +1740,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_77
+      name: Fire Warrior HD_18
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 739
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1168
+        y: 1230
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1761,15 +1761,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_78
+      name: Fire Warrior HD_19
       rect:
         serializedVersion: 2
-        x: 1168
-        y: 739
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1314
+        y: 1230
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1782,15 +1782,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_79
+      name: Fire Warrior HD_2
       rect:
         serializedVersion: 2
-        x: 1314
-        y: 739
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 292
+        y: 1312
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1803,15 +1803,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_80
+      name: Fire Warrior HD_20
       rect:
         serializedVersion: 2
         x: 0
-        y: 657
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1148
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1824,15 +1824,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_81
+      name: Fire Warrior HD_21
       rect:
         serializedVersion: 2
         x: 146
-        y: 657
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1148
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1845,15 +1845,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_82
+      name: Fire Warrior HD_22
       rect:
         serializedVersion: 2
         x: 292
-        y: 657
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1148
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1866,15 +1866,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_83
+      name: Fire Warrior HD_23
       rect:
         serializedVersion: 2
         x: 438
-        y: 657
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1148
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1887,15 +1887,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_84
+      name: Fire Warrior HD_24
       rect:
         serializedVersion: 2
         x: 584
-        y: 657
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1148
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1908,15 +1908,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_85
+      name: Fire Warrior HD_25
       rect:
         serializedVersion: 2
         x: 730
-        y: 657
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1148
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1929,15 +1929,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_86
+      name: Fire Warrior HD_26
       rect:
         serializedVersion: 2
         x: 876
-        y: 657
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1148
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1950,15 +1950,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_87
+      name: Fire Warrior HD_27
       rect:
         serializedVersion: 2
         x: 1022
-        y: 657
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1148
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1971,15 +1971,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_88
+      name: Fire Warrior HD_28
       rect:
         serializedVersion: 2
         x: 1168
-        y: 657
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1148
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1992,15 +1992,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_89
+      name: Fire Warrior HD_29
       rect:
         serializedVersion: 2
         x: 1314
-        y: 657
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1148
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2013,15 +2013,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_90
+      name: Fire Warrior HD_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 575
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 438
+        y: 1312
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2034,15 +2034,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_91
+      name: Fire Warrior HD_30
       rect:
         serializedVersion: 2
-        x: 146
-        y: 575
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 1066
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2055,15 +2055,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_92
+      name: Fire Warrior HD_31
       rect:
         serializedVersion: 2
-        x: 292
-        y: 575
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 1066
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2076,15 +2076,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_93
+      name: Fire Warrior HD_32
       rect:
         serializedVersion: 2
-        x: 438
-        y: 575
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 292
+        y: 1066
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2097,15 +2097,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_94
+      name: Fire Warrior HD_33
       rect:
         serializedVersion: 2
-        x: 584
-        y: 575
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 438
+        y: 1066
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2118,15 +2118,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_95
+      name: Fire Warrior HD_34
       rect:
         serializedVersion: 2
-        x: 730
-        y: 575
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 584
+        y: 1066
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2139,15 +2139,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_96
+      name: Fire Warrior HD_35
       rect:
         serializedVersion: 2
-        x: 876
-        y: 575
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 730
+        y: 1066
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2160,15 +2160,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_97
+      name: Fire Warrior HD_36
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 575
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 876
+        y: 1066
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2181,15 +2181,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_98
+      name: Fire Warrior HD_37
       rect:
         serializedVersion: 2
-        x: 1168
-        y: 575
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1022
+        y: 1066
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2202,15 +2202,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_99
+      name: Fire Warrior HD_38
       rect:
         serializedVersion: 2
-        x: 1314
-        y: 575
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1168
+        y: 1066
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2223,15 +2223,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_100
+      name: Fire Warrior HD_39
       rect:
         serializedVersion: 2
-        x: 0
-        y: 493
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1314
+        y: 1066
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2244,15 +2244,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_101
+      name: Fire Warrior HD_4
       rect:
         serializedVersion: 2
-        x: 146
-        y: 493
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 584
+        y: 1312
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2265,15 +2265,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_102
+      name: Fire Warrior HD_40
       rect:
         serializedVersion: 2
-        x: 292
-        y: 493
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 984
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2286,15 +2286,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_103
+      name: Fire Warrior HD_41
       rect:
         serializedVersion: 2
-        x: 438
-        y: 493
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 984
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2307,15 +2307,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_104
+      name: Fire Warrior HD_42
       rect:
         serializedVersion: 2
-        x: 584
-        y: 493
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 292
+        y: 984
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2328,15 +2328,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_105
+      name: Fire Warrior HD_43
       rect:
         serializedVersion: 2
-        x: 730
-        y: 493
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 438
+        y: 984
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2349,15 +2349,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_106
+      name: Fire Warrior HD_44
       rect:
         serializedVersion: 2
-        x: 876
-        y: 493
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 584
+        y: 984
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2370,15 +2370,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_107
+      name: Fire Warrior HD_45
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 493
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 730
+        y: 984
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2391,15 +2391,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_108
+      name: Fire Warrior HD_46
       rect:
         serializedVersion: 2
-        x: 1168
-        y: 493
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 876
+        y: 984
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2412,15 +2412,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_109
+      name: Fire Warrior HD_47
       rect:
         serializedVersion: 2
-        x: 1314
-        y: 493
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1022
+        y: 984
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2433,15 +2433,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_110
+      name: Fire Warrior HD_48
       rect:
         serializedVersion: 2
-        x: 0
-        y: 411
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1168
+        y: 984
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2454,15 +2454,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_111
+      name: Fire Warrior HD_49
       rect:
         serializedVersion: 2
-        x: 146
-        y: 411
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1314
+        y: 984
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2475,15 +2475,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_112
+      name: Fire Warrior HD_5
       rect:
         serializedVersion: 2
-        x: 292
-        y: 411
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 730
+        y: 1312
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2496,15 +2496,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_113
+      name: Fire Warrior HD_50
       rect:
         serializedVersion: 2
-        x: 438
-        y: 411
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 902
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2517,15 +2517,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_114
+      name: Fire Warrior HD_51
       rect:
         serializedVersion: 2
-        x: 584
-        y: 411
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 902
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2538,15 +2538,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_115
+      name: Fire Warrior HD_52
       rect:
         serializedVersion: 2
-        x: 730
-        y: 411
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 292
+        y: 902
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2559,15 +2559,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_116
+      name: Fire Warrior HD_53
       rect:
         serializedVersion: 2
-        x: 876
-        y: 411
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 438
+        y: 902
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2580,15 +2580,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_117
+      name: Fire Warrior HD_54
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 411
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 584
+        y: 902
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2601,15 +2601,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_118
+      name: Fire Warrior HD_55
       rect:
         serializedVersion: 2
-        x: 1168
-        y: 411
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 730
+        y: 902
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2622,15 +2622,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_119
+      name: Fire Warrior HD_56
       rect:
         serializedVersion: 2
-        x: 1314
-        y: 411
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 876
+        y: 902
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2643,15 +2643,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_120
+      name: Fire Warrior HD_57
       rect:
         serializedVersion: 2
-        x: 0
-        y: 329
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1022
+        y: 902
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2664,15 +2664,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_121
+      name: Fire Warrior HD_58
       rect:
         serializedVersion: 2
-        x: 146
-        y: 329
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1168
+        y: 902
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2685,15 +2685,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_122
+      name: Fire Warrior HD_59
       rect:
         serializedVersion: 2
-        x: 292
-        y: 329
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1314
+        y: 902
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2706,15 +2706,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_123
+      name: Fire Warrior HD_6
       rect:
         serializedVersion: 2
-        x: 438
-        y: 329
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 876
+        y: 1312
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2727,15 +2727,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_124
+      name: Fire Warrior HD_60
       rect:
         serializedVersion: 2
-        x: 584
-        y: 329
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 820
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2748,15 +2748,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_125
+      name: Fire Warrior HD_61
       rect:
         serializedVersion: 2
-        x: 730
-        y: 329
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 820
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2769,15 +2769,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_126
+      name: Fire Warrior HD_62
       rect:
         serializedVersion: 2
-        x: 876
-        y: 329
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 292
+        y: 820
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2790,15 +2790,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_127
+      name: Fire Warrior HD_63
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 329
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 438
+        y: 820
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2811,15 +2811,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_128
+      name: Fire Warrior HD_64
       rect:
         serializedVersion: 2
-        x: 1168
-        y: 329
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 584
+        y: 820
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2832,15 +2832,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_129
+      name: Fire Warrior HD_65
       rect:
         serializedVersion: 2
-        x: 1314
-        y: 329
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 730
+        y: 820
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2853,15 +2853,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_130
+      name: Fire Warrior HD_66
       rect:
         serializedVersion: 2
-        x: 0
-        y: 247
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 876
+        y: 820
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2874,15 +2874,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_131
+      name: Fire Warrior HD_67
       rect:
         serializedVersion: 2
-        x: 146
-        y: 247
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1022
+        y: 820
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2895,15 +2895,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_132
+      name: Fire Warrior HD_68
       rect:
         serializedVersion: 2
-        x: 292
-        y: 247
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1168
+        y: 820
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2916,15 +2916,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_133
+      name: Fire Warrior HD_69
       rect:
         serializedVersion: 2
-        x: 438
-        y: 247
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1314
+        y: 820
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2937,15 +2937,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_134
+      name: Fire Warrior HD_7
       rect:
         serializedVersion: 2
-        x: 584
-        y: 247
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1022
+        y: 1312
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2958,15 +2958,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_135
+      name: Fire Warrior HD_70
       rect:
         serializedVersion: 2
-        x: 730
-        y: 247
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 738
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2979,15 +2979,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_136
+      name: Fire Warrior HD_71
       rect:
         serializedVersion: 2
-        x: 876
-        y: 247
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 738
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3000,15 +3000,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_137
+      name: Fire Warrior HD_72
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 247
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 292
+        y: 738
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3021,15 +3021,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_138
+      name: Fire Warrior HD_73
       rect:
         serializedVersion: 2
-        x: 1168
-        y: 247
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 438
+        y: 738
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3042,15 +3042,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_139
+      name: Fire Warrior HD_74
       rect:
         serializedVersion: 2
-        x: 1314
-        y: 247
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 584
+        y: 738
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3063,15 +3063,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_140
+      name: Fire Warrior HD_75
       rect:
         serializedVersion: 2
-        x: 0
-        y: 165
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 730
+        y: 738
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3084,15 +3084,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_141
+      name: Fire Warrior HD_76
       rect:
         serializedVersion: 2
-        x: 146
-        y: 165
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 876
+        y: 738
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3105,15 +3105,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_142
+      name: Fire Warrior HD_77
       rect:
         serializedVersion: 2
-        x: 292
-        y: 165
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1022
+        y: 738
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3126,15 +3126,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_143
+      name: Fire Warrior HD_78
       rect:
         serializedVersion: 2
-        x: 438
-        y: 165
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1168
+        y: 738
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3147,15 +3147,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_144
+      name: Fire Warrior HD_79
       rect:
         serializedVersion: 2
-        x: 584
-        y: 165
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1314
+        y: 738
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3168,15 +3168,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_145
+      name: Fire Warrior HD_8
       rect:
         serializedVersion: 2
-        x: 730
-        y: 165
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1168
+        y: 1312
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3189,15 +3189,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_146
+      name: Fire Warrior HD_80
       rect:
         serializedVersion: 2
-        x: 876
-        y: 165
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 656
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3210,15 +3210,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_147
+      name: Fire Warrior HD_81
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 165
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 656
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3231,15 +3231,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_148
+      name: Fire Warrior HD_82
       rect:
         serializedVersion: 2
-        x: 1168
-        y: 165
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 292
+        y: 656
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3252,15 +3252,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_149
+      name: Fire Warrior HD_83
       rect:
         serializedVersion: 2
-        x: 0
-        y: 83
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 438
+        y: 656
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3273,15 +3273,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_150
+      name: Fire Warrior HD_84
       rect:
         serializedVersion: 2
-        x: 146
-        y: 83
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 584
+        y: 656
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3294,15 +3294,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_151
+      name: Fire Warrior HD_85
       rect:
         serializedVersion: 2
-        x: 292
-        y: 83
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 730
+        y: 656
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3315,15 +3315,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_152
+      name: Fire Warrior HD_86
       rect:
         serializedVersion: 2
-        x: 438
-        y: 83
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 876
+        y: 656
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3336,15 +3336,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_153
+      name: Fire Warrior HD_87
       rect:
         serializedVersion: 2
-        x: 584
-        y: 83
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1022
+        y: 656
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3357,15 +3357,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_154
+      name: Fire Warrior HD_88
       rect:
         serializedVersion: 2
-        x: 730
-        y: 83
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1168
+        y: 656
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3378,15 +3378,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_155
+      name: Fire Warrior HD_89
       rect:
         serializedVersion: 2
-        x: 876
-        y: 83
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1314
+        y: 656
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3399,15 +3399,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_156
+      name: Fire Warrior HD_9
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 83
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1314
+        y: 1312
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3420,15 +3420,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_157
+      name: Fire Warrior HD_90
       rect:
         serializedVersion: 2
-        x: 1168
-        y: 83
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 574
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3441,15 +3441,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_158
+      name: Fire Warrior HD_91
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 146
+        y: 574
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3462,15 +3462,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_159
+      name: Fire Warrior HD_92
       rect:
         serializedVersion: 2
-        x: 146
-        y: 1
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 292
+        y: 574
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3483,15 +3483,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_160
+      name: Fire Warrior HD_93
       rect:
         serializedVersion: 2
-        x: 292
-        y: 1
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 438
+        y: 574
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3504,15 +3504,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_161
+      name: Fire Warrior HD_94
       rect:
         serializedVersion: 2
-        x: 438
-        y: 1
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 584
+        y: 574
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3525,15 +3525,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_162
+      name: Fire Warrior HD_95
       rect:
         serializedVersion: 2
-        x: 584
-        y: 1
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 730
+        y: 574
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3546,15 +3546,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_163
+      name: Fire Warrior HD_96
       rect:
         serializedVersion: 2
-        x: 730
-        y: 1
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 876
+        y: 574
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3567,15 +3567,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_164
+      name: Fire Warrior HD_97
       rect:
         serializedVersion: 2
-        x: 876
-        y: 1
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1022
+        y: 574
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3588,15 +3588,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_165
+      name: Fire Warrior HD_98
       rect:
         serializedVersion: 2
-        x: 1022
-        y: 1
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1168
+        y: 574
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3609,15 +3609,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Warrior HD_166
+      name: Fire Warrior HD_99
       rect:
         serializedVersion: 2
-        x: 1168
-        y: 1
-        width: 145
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1314
+        y: 574
+        width: 146
+        height: 82
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3642,171 +3642,171 @@ TextureImporter:
     nameFileIdTable:
       Fire Warrior HD_0: -1386388822
       Fire Warrior HD_1: 847930203
-      Fire Warrior HD_10: 1888508079
-      Fire Warrior HD_100: 1562680536
-      Fire Warrior HD_101: 556741035
-      Fire Warrior HD_102: -1619177293
-      Fire Warrior HD_103: -1327247819
-      Fire Warrior HD_104: 1552674022
-      Fire Warrior HD_105: 1858827667
-      Fire Warrior HD_106: -261056205
-      Fire Warrior HD_107: -1691338147
-      Fire Warrior HD_108: 476343009
-      Fire Warrior HD_109: 34957121
-      Fire Warrior HD_11: -1400482544
-      Fire Warrior HD_110: -685117639
-      Fire Warrior HD_111: 1865958716
-      Fire Warrior HD_112: 1543844579
-      Fire Warrior HD_113: -1886827567
-      Fire Warrior HD_114: 1296580051
-      Fire Warrior HD_115: 1729330978
-      Fire Warrior HD_116: -818013440
-      Fire Warrior HD_117: 969471852
-      Fire Warrior HD_118: 197104871
-      Fire Warrior HD_119: 1923786126
-      Fire Warrior HD_12: -1907231813
-      Fire Warrior HD_120: -107079379
-      Fire Warrior HD_121: 1418558309
-      Fire Warrior HD_122: 1637632865
-      Fire Warrior HD_123: 1278039398
-      Fire Warrior HD_124: 1982722532
-      Fire Warrior HD_125: -965547971
-      Fire Warrior HD_126: 1027304038
-      Fire Warrior HD_127: -531018421
-      Fire Warrior HD_128: 1497460630
-      Fire Warrior HD_129: 1839714357
-      Fire Warrior HD_13: -844605902
-      Fire Warrior HD_130: -1782870038
-      Fire Warrior HD_131: 1976403922
-      Fire Warrior HD_132: -167985476
-      Fire Warrior HD_133: 786910820
-      Fire Warrior HD_134: -306809523
-      Fire Warrior HD_135: -2142681152
-      Fire Warrior HD_136: -314653182
-      Fire Warrior HD_137: -1893892816
-      Fire Warrior HD_138: -2119830523
-      Fire Warrior HD_139: -698983861
-      Fire Warrior HD_14: 1966923313
-      Fire Warrior HD_140: 317043743
-      Fire Warrior HD_141: -61392017
-      Fire Warrior HD_142: -1893424864
-      Fire Warrior HD_143: -1641155094
-      Fire Warrior HD_144: 1720028812
-      Fire Warrior HD_145: -562163758
-      Fire Warrior HD_146: -1391728604
-      Fire Warrior HD_147: -1995755947
-      Fire Warrior HD_148: 258027017
-      Fire Warrior HD_149: 1194529935
-      Fire Warrior HD_15: -238921769
-      Fire Warrior HD_150: 384425296
-      Fire Warrior HD_151: -1437403912
-      Fire Warrior HD_152: 904626136
-      Fire Warrior HD_153: 115194034
-      Fire Warrior HD_154: -910304237
-      Fire Warrior HD_155: -345105004
-      Fire Warrior HD_156: 212831597
-      Fire Warrior HD_157: 1507986356
-      Fire Warrior HD_158: 2072702406
-      Fire Warrior HD_159: -619337165
-      Fire Warrior HD_16: -1992589124
-      Fire Warrior HD_160: 1710223795
-      Fire Warrior HD_161: 1115259674
-      Fire Warrior HD_162: -876147377
-      Fire Warrior HD_163: 1517655345
-      Fire Warrior HD_164: -1626862805
-      Fire Warrior HD_165: 25705757
-      Fire Warrior HD_166: -226734857
-      Fire Warrior HD_17: -1770288644
-      Fire Warrior HD_18: 1953577485
-      Fire Warrior HD_19: -1061317367
-      Fire Warrior HD_2: -810695476
-      Fire Warrior HD_20: -1797837587
-      Fire Warrior HD_21: -1984835027
-      Fire Warrior HD_22: 592893157
-      Fire Warrior HD_23: 702104607
-      Fire Warrior HD_24: -1692948875
-      Fire Warrior HD_25: 2043045804
-      Fire Warrior HD_26: 1284376165
-      Fire Warrior HD_27: -97598317
-      Fire Warrior HD_28: 1989263460
-      Fire Warrior HD_29: -2037460755
-      Fire Warrior HD_3: 1993682720
-      Fire Warrior HD_30: 1269172558
-      Fire Warrior HD_31: -711948212
-      Fire Warrior HD_32: -1868288770
-      Fire Warrior HD_33: 2114186528
-      Fire Warrior HD_34: 1527362155
-      Fire Warrior HD_35: -1408192490
-      Fire Warrior HD_36: 2097471679
-      Fire Warrior HD_37: 1422518757
-      Fire Warrior HD_38: 181885293
-      Fire Warrior HD_39: -1115888566
-      Fire Warrior HD_4: -16697394
-      Fire Warrior HD_40: -10413702
-      Fire Warrior HD_41: -1282461405
-      Fire Warrior HD_42: 155627901
-      Fire Warrior HD_43: 1445135193
-      Fire Warrior HD_44: -1002283010
-      Fire Warrior HD_45: -630298406
-      Fire Warrior HD_46: -1901212184
-      Fire Warrior HD_47: 849720009
-      Fire Warrior HD_48: 100655596
-      Fire Warrior HD_49: 1300905974
-      Fire Warrior HD_5: -1591210750
-      Fire Warrior HD_50: -771983107
-      Fire Warrior HD_51: -108002497
-      Fire Warrior HD_52: 374048340
-      Fire Warrior HD_53: -619296066
-      Fire Warrior HD_54: -1980523909
-      Fire Warrior HD_55: 1242513382
-      Fire Warrior HD_56: 420744409
-      Fire Warrior HD_57: 847963519
-      Fire Warrior HD_58: -1388186842
-      Fire Warrior HD_59: -1778079705
-      Fire Warrior HD_6: -988978430
-      Fire Warrior HD_60: 1379508489
-      Fire Warrior HD_61: -789878845
-      Fire Warrior HD_62: -1262371891
-      Fire Warrior HD_63: -2061982743
-      Fire Warrior HD_64: 351643603
-      Fire Warrior HD_65: 207579755
-      Fire Warrior HD_66: 109754306
-      Fire Warrior HD_67: -1384742415
-      Fire Warrior HD_68: -2072772101
-      Fire Warrior HD_69: -1698557083
-      Fire Warrior HD_7: 1952168691
-      Fire Warrior HD_70: 119059502
-      Fire Warrior HD_71: -536590184
-      Fire Warrior HD_72: -87713520
-      Fire Warrior HD_73: -2088062338
-      Fire Warrior HD_74: 595926846
-      Fire Warrior HD_75: -150438085
-      Fire Warrior HD_76: 455842408
-      Fire Warrior HD_77: 1615427722
-      Fire Warrior HD_78: 520883382
-      Fire Warrior HD_79: -1865346782
-      Fire Warrior HD_8: 1995995221
-      Fire Warrior HD_80: -278082083
-      Fire Warrior HD_81: -571228022
-      Fire Warrior HD_82: -320243169
-      Fire Warrior HD_83: 941632535
-      Fire Warrior HD_84: -1508223162
-      Fire Warrior HD_85: -744552138
-      Fire Warrior HD_86: -1073947813
-      Fire Warrior HD_87: 178761298
-      Fire Warrior HD_88: -836373684
-      Fire Warrior HD_89: 1501060532
-      Fire Warrior HD_9: 1638185538
-      Fire Warrior HD_90: 1138026276
-      Fire Warrior HD_91: -519801483
-      Fire Warrior HD_92: -78790751
-      Fire Warrior HD_93: 80779391
-      Fire Warrior HD_94: -489704902
-      Fire Warrior HD_95: 1988070415
-      Fire Warrior HD_96: -1067256191
-      Fire Warrior HD_97: 455857961
-      Fire Warrior HD_98: -810031747
-      Fire Warrior HD_99: 361064485
+      Fire Warrior HD_10: -810695476
+      Fire Warrior HD_100: 1993682720
+      Fire Warrior HD_101: -16697394
+      Fire Warrior HD_102: -1591210750
+      Fire Warrior HD_103: -988978430
+      Fire Warrior HD_104: 1952168691
+      Fire Warrior HD_105: 1995995221
+      Fire Warrior HD_106: 1638185538
+      Fire Warrior HD_107: 1888508079
+      Fire Warrior HD_108: -1400482544
+      Fire Warrior HD_109: -1907231813
+      Fire Warrior HD_11: -844605902
+      Fire Warrior HD_110: 1966923313
+      Fire Warrior HD_111: -238921769
+      Fire Warrior HD_112: -1992589124
+      Fire Warrior HD_113: -1770288644
+      Fire Warrior HD_114: 1953577485
+      Fire Warrior HD_115: -1061317367
+      Fire Warrior HD_116: -1797837587
+      Fire Warrior HD_117: -1984835027
+      Fire Warrior HD_118: 592893157
+      Fire Warrior HD_119: 702104607
+      Fire Warrior HD_12: -1692948875
+      Fire Warrior HD_120: 2043045804
+      Fire Warrior HD_121: 1284376165
+      Fire Warrior HD_122: -97598317
+      Fire Warrior HD_123: 1989263460
+      Fire Warrior HD_124: -2037460755
+      Fire Warrior HD_125: 1269172558
+      Fire Warrior HD_126: -711948212
+      Fire Warrior HD_127: -1868288770
+      Fire Warrior HD_128: 2114186528
+      Fire Warrior HD_129: 1527362155
+      Fire Warrior HD_13: -1408192490
+      Fire Warrior HD_130: 2097471679
+      Fire Warrior HD_131: 1422518757
+      Fire Warrior HD_132: 181885293
+      Fire Warrior HD_133: -1115888566
+      Fire Warrior HD_134: -10413702
+      Fire Warrior HD_135: -1282461405
+      Fire Warrior HD_136: 155627901
+      Fire Warrior HD_137: 1445135193
+      Fire Warrior HD_138: -1002283010
+      Fire Warrior HD_139: -630298406
+      Fire Warrior HD_14: -1901212184
+      Fire Warrior HD_140: 849720009
+      Fire Warrior HD_141: 100655596
+      Fire Warrior HD_142: 1300905974
+      Fire Warrior HD_143: -771983107
+      Fire Warrior HD_144: -108002497
+      Fire Warrior HD_145: 374048340
+      Fire Warrior HD_146: -619296066
+      Fire Warrior HD_147: -1980523909
+      Fire Warrior HD_148: 1242513382
+      Fire Warrior HD_149: 420744409
+      Fire Warrior HD_15: 847963519
+      Fire Warrior HD_150: -1388186842
+      Fire Warrior HD_151: -1778079705
+      Fire Warrior HD_152: 1379508489
+      Fire Warrior HD_153: -789878845
+      Fire Warrior HD_154: -1262371891
+      Fire Warrior HD_155: -2061982743
+      Fire Warrior HD_156: 351643603
+      Fire Warrior HD_157: 207579755
+      Fire Warrior HD_158: 109754306
+      Fire Warrior HD_159: -1384742415
+      Fire Warrior HD_16: -2072772101
+      Fire Warrior HD_160: -1698557083
+      Fire Warrior HD_161: 119059502
+      Fire Warrior HD_162: -536590184
+      Fire Warrior HD_163: -87713520
+      Fire Warrior HD_164: -2088062338
+      Fire Warrior HD_165: 595926846
+      Fire Warrior HD_166: -150438085
+      Fire Warrior HD_17: 455842408
+      Fire Warrior HD_18: 1615427722
+      Fire Warrior HD_19: 520883382
+      Fire Warrior HD_2: -1865346782
+      Fire Warrior HD_20: -278082083
+      Fire Warrior HD_21: -571228022
+      Fire Warrior HD_22: -320243169
+      Fire Warrior HD_23: 941632535
+      Fire Warrior HD_24: -1508223162
+      Fire Warrior HD_25: -744552138
+      Fire Warrior HD_26: -1073947813
+      Fire Warrior HD_27: 178761298
+      Fire Warrior HD_28: -836373684
+      Fire Warrior HD_29: 1501060532
+      Fire Warrior HD_3: 1138026276
+      Fire Warrior HD_30: -519801483
+      Fire Warrior HD_31: -78790751
+      Fire Warrior HD_32: 80779391
+      Fire Warrior HD_33: -489704902
+      Fire Warrior HD_34: 1988070415
+      Fire Warrior HD_35: -1067256191
+      Fire Warrior HD_36: 455857961
+      Fire Warrior HD_37: -810031747
+      Fire Warrior HD_38: 361064485
+      Fire Warrior HD_39: 1562680536
+      Fire Warrior HD_4: 556741035
+      Fire Warrior HD_40: -1619177293
+      Fire Warrior HD_41: -1327247819
+      Fire Warrior HD_42: 1552674022
+      Fire Warrior HD_43: 1858827667
+      Fire Warrior HD_44: -261056205
+      Fire Warrior HD_45: -1691338147
+      Fire Warrior HD_46: 476343009
+      Fire Warrior HD_47: 34957121
+      Fire Warrior HD_48: -685117639
+      Fire Warrior HD_49: 1865958716
+      Fire Warrior HD_5: 1543844579
+      Fire Warrior HD_50: -1886827567
+      Fire Warrior HD_51: 1296580051
+      Fire Warrior HD_52: 1729330978
+      Fire Warrior HD_53: -818013440
+      Fire Warrior HD_54: 969471852
+      Fire Warrior HD_55: 197104871
+      Fire Warrior HD_56: 1923786126
+      Fire Warrior HD_57: -107079379
+      Fire Warrior HD_58: 1418558309
+      Fire Warrior HD_59: 1637632865
+      Fire Warrior HD_6: 1278039398
+      Fire Warrior HD_60: 1982722532
+      Fire Warrior HD_61: -965547971
+      Fire Warrior HD_62: 1027304038
+      Fire Warrior HD_63: -531018421
+      Fire Warrior HD_64: 1497460630
+      Fire Warrior HD_65: 1839714357
+      Fire Warrior HD_66: -1782870038
+      Fire Warrior HD_67: 1976403922
+      Fire Warrior HD_68: -167985476
+      Fire Warrior HD_69: 786910820
+      Fire Warrior HD_7: -306809523
+      Fire Warrior HD_70: -2142681152
+      Fire Warrior HD_71: -314653182
+      Fire Warrior HD_72: -1893892816
+      Fire Warrior HD_73: -2119830523
+      Fire Warrior HD_74: -698983861
+      Fire Warrior HD_75: 317043743
+      Fire Warrior HD_76: -61392017
+      Fire Warrior HD_77: -1893424864
+      Fire Warrior HD_78: -1641155094
+      Fire Warrior HD_79: 1720028812
+      Fire Warrior HD_8: -562163758
+      Fire Warrior HD_80: -1391728604
+      Fire Warrior HD_81: -1995755947
+      Fire Warrior HD_82: 258027017
+      Fire Warrior HD_83: 1194529935
+      Fire Warrior HD_84: 384425296
+      Fire Warrior HD_85: -1437403912
+      Fire Warrior HD_86: 904626136
+      Fire Warrior HD_87: 115194034
+      Fire Warrior HD_88: -910304237
+      Fire Warrior HD_89: -345105004
+      Fire Warrior HD_9: 212831597
+      Fire Warrior HD_90: 1507986356
+      Fire Warrior HD_91: 2072702406
+      Fire Warrior HD_92: -619337165
+      Fire Warrior HD_93: 1710223795
+      Fire Warrior HD_94: 1115259674
+      Fire Warrior HD_95: -876147377
+      Fire Warrior HD_96: 1517655345
+      Fire Warrior HD_97: -1626862805
+      Fire Warrior HD_98: 25705757
+      Fire Warrior HD_99: -226734857
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

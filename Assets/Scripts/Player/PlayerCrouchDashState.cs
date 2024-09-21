@@ -26,6 +26,12 @@ public class PlayerCrouchDashState : PlayerCrouchBaseState
         {
             stateMachine.ChangeState(player.idleState);
         }
+
+        if (stateTimer <= 0)
+        {
+            stateMachine.ChangeState(player.idleState);
+        }
+
         base.Update();
     }
 
