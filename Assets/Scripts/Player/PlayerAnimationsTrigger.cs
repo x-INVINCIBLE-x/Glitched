@@ -23,7 +23,7 @@ public class PlayerAnimationsTrigger : MonoBehaviour
         foreach (var hit in colliders)
         {
             if (hit.TryGetComponent(out EnemyStats _target))
-                    player.stats.DoDamage(_target); 
+                    player.Stats.DoDamage(_target); 
         }
     }
 }

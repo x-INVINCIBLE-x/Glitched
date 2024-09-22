@@ -143,6 +143,16 @@ public class CharacterStats : MonoBehaviour
         }
     }
 
+    public virtual void DoGlitchedHeal(CharacterStats targetStats)
+    {
+        targetStats.Heal(physicalAtk.Value);
+    }
+
+    public virtual void Heal(float amount)
+    {
+        currentHealth = Mathf.Min(currentHealth + amount, health.Value);
+    }
+
     public virtual void DoDamage(CharacterStats targetStats)
     {
         if (targetStats.isPerfectBlock)

@@ -19,6 +19,7 @@ public class Player : Entity
 
     public PlayerStateMachine stateMachine { get; private set; }
 
+    private SpriteRenderer sr;
 
     [SerializeField] private LayerMask ledgeLayer;
     [SerializeField] private Transform ledgeCheck;
@@ -30,9 +31,11 @@ public class Player : Entity
 
     [Header("Move info")]
     public float moveSpeed;
+    private float speedMultiplier;
 
     [Header("Jump info")]
     public float jumpForce;
+    private float jumpMultiplier;
 
     [Header("Attack Info")]
     public Vector2[] attackForce;
@@ -59,6 +62,7 @@ public class Player : Entity
     protected override void Awake()
     {
         base.Awake();
+        sr = GetComponentInChildren<SpriteRenderer>();
     }
 
     protected override void Start()
@@ -84,6 +88,11 @@ public class Player : Entity
 
         stateMachine.Initialize(idleState);
         skillManager = SkillManager.instance;
+    }
+
+    private void OnEnable()
+    {
+        GlitchManager.onGlitchUpdate += OnGlitchesUpdate;
     }
 
     protected override void Update()
@@ -121,6 +130,46 @@ public class Player : Entity
 
     public bool isLedgeDetected => Physics2D.Raycast(ledgeCheck.position, Vector3.right * facingDir, ledgeCheckDistance, ledgeLayer);
     public void AnimationTrigger() => stateMachine.currentState.AnimationTrigger();
+
+    private void OnGlitchesUpdate()
+    {
+        if (GlitchManager.GlitchedGravity)
+        {
+            rb.gravityScale *= -1;
+            groundCheckDistance *= -1;
+            transform.rotation = Quaternion.Euler(180, transform.eulerAngles.y, transform.eulerAngles.z);
+        }
+
+        if (!GlitchManager.GlitchedGravity && rb.gravityScale < 0)
+        {
+            rb.gravityScale = Mathf.Abs(rb.gravityScale);
+            groundCheckDistance = Mathf.Abs(groundCheckDistance);
+            transform.rotation = Quaternion.Euler(180, transform.eulerAngles.y, transform.eulerAngles.z);
+        }
+    }
+
+    public override void SetVelcocity(float xVelocity, float yVelocity)
+    {
+        if (GlitchManager.GlitchedDirection)
+        {
+            xVelocity = -xVelocity;
+        }
+
+        if (GlitchManager.GlitchedSpeed)
+        {
+            if (GlitchManager.CanGlitch(Glitches.Speed))
+                speedMultiplier = Random.Range(GlitchManager.minSpeedVariation, GlitchManager.maxSpeedVariation);
+            xVelocity *= speedMultiplier;
+        }
+
+        if (GlitchManager.GlitchedJump && rb.velocity.y == 0)
+        {
+            jumpMultiplier = Random.Range(GlitchManager.minJumpVariation, GlitchManager.maxJumpVariation);
+            yVelocity *= jumpMultiplier;
+        }
+
+        base.SetVelcocity(xVelocity, yVelocity);
+    }
 
     protected override void OnDrawGizmos()
     {

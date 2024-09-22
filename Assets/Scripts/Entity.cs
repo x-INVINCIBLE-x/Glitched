@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Entity : MonoBehaviour
 {
-    public CharacterStats stats { get; private set; }
+    public GlitchManager GlitchManager;
+    public CharacterStats Stats { get; private set; }
 
     public int facingDir { get; private set; } = 1;
     public bool facingRight = true;
@@ -12,7 +13,7 @@ public class Entity : MonoBehaviour
     [Header("Collision Check")]
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private Transform groundCheck;
-    [SerializeField] private float groundCheckDistance;
+    public float groundCheckDistance;
     [Space]
 
     [SerializeField] private Transform wallCheck;
@@ -29,7 +30,8 @@ public class Entity : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponentInChildren<Animator>();
-        stats = GetComponent<CharacterStats>();
+        Stats = GetComponent<CharacterStats>();
+        GlitchManager = GlitchManager.Instance;
     }
 
     protected virtual void Start()
@@ -56,7 +58,7 @@ public class Entity : MonoBehaviour
         transform.Rotate(0, 180, 0);
     }
 
-    public void SetVelcocity(float xVelocity, float yVelocity)
+    public virtual void SetVelcocity(float xVelocity, float yVelocity)
     {
         rb.velocity = new(xVelocity, yVelocity);
         FlipController(xVelocity);
