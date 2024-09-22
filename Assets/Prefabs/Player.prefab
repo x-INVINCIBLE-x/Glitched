@@ -62,6 +62,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5595263969418385526}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1447802066299812208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2544837076217730603}
+  m_Layer: 0
+  m_Name: AttackCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2544837076217730603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447802066299812208}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.35, y: 0.29, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5595263969418385526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2055486992885749635
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,8 +521,9 @@ GameObject:
   - component: {fileID: 5595263969418385526}
   - component: {fileID: 8338904175108865061}
   - component: {fileID: 742184920223553111}
-  - component: {fileID: 1296260862425578476}
   - component: {fileID: 2095447381939493521}
+  - component: {fileID: 1296260862425578476}
+  - component: {fileID: 8866373140652057452}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -518,6 +550,7 @@ Transform:
   - {fileID: 3790050231236674003}
   - {fileID: 4166204075908508472}
   - {fileID: 1657148019957398725}
+  - {fileID: 2544837076217730603}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &8338904175108865061
@@ -535,7 +568,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 3.5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -543,7 +576,7 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
@@ -582,49 +615,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.093090534}
   m_Size: {x: 0.87119865, y: 2.88198}
   m_Direction: 0
---- !u!114 &1296260862425578476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8740496053050839610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86253337ecbeb2842b98205b6c8e60ee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  facingRight: 1
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  groundCheck: {fileID: 3137678782601572638}
-  groundCheckDistance: 0.05
-  wallCheck: {fileID: 7627338952145349561}
-  wallCheckDistance: 0.43
-  ledgeLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  ledgeCheck: {fileID: 3790050231236674003}
-  ledgeCheckDistance: 0.05
-  defaultAnimator: {fileID: 9100000, guid: 1fe8007a4a8f4074883f21e39622e553, type: 2}
-  fireSwordAnimator: {fileID: 22100000, guid: 931bc4da7c3eda443a67cfe1d4bf167f, type: 2}
-  moveSpeed: 8
-  jumpForce: 12
-  attackForce:
-  - {x: 0.5, y: 0.5}
-  - {x: 0.8, y: 0}
-  - {x: 3, y: 0}
-  dashSpeed: 30
-  dashDuration: 0.2
-  crouchDashSpeed: 10
-  crouchDashDuration: 0.8
-  crouchDashCooldown: 0.12
-  fireSwordCooldown: 4
-  fireSwordTimer: 0
-  defaultCollider: {fileID: 742184920223553111}
-  crouchCollider: {fileID: 2095447381939493521}
-  isBusy: 0
 --- !u!61 &2095447381939493521
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -670,6 +660,107 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7378912, y: 1.84829}
   m_EdgeRadius: 0
+--- !u!114 &1296260862425578476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8740496053050839610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86253337ecbeb2842b98205b6c8e60ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  facingRight: 1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  groundCheck: {fileID: 3137678782601572638}
+  groundCheckDistance: 0.05
+  wallCheck: {fileID: 7627338952145349561}
+  wallCheckDistance: 0.43
+  attackCheck: {fileID: 2544837076217730603}
+  attackCheckRadius: 1.31
+  ledgeLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  ledgeCheck: {fileID: 3790050231236674003}
+  ledgeCheckDistance: 0.05
+  defaultAnimator: {fileID: 9100000, guid: 1fe8007a4a8f4074883f21e39622e553, type: 2}
+  fireSwordAnimator: {fileID: 22100000, guid: 931bc4da7c3eda443a67cfe1d4bf167f, type: 2}
+  moveSpeed: 8
+  jumpForce: 14
+  attackForce:
+  - {x: 0.5, y: 0.5}
+  - {x: 0.8, y: 0}
+  - {x: 3, y: 0}
+  dashSpeed: 30
+  dashDuration: 0.2
+  crouchDashSpeed: 10
+  crouchDashDuration: 0.8
+  crouchDashCooldown: 0.12
+  fireSwordCooldown: 4
+  fireSwordTimer: 0
+  defaultCollider: {fileID: 742184920223553111}
+  crouchCollider: {fileID: 2095447381939493521}
+  isBusy: 0
+--- !u!114 &8866373140652057452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8740496053050839610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14076b190c7c584f9b356f870f520fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health:
+    BaseValue: 0
+    statModifiers: []
+  mana:
+    BaseValue: 0
+    statModifiers: []
+  manaRegain:
+    BaseValue: 0
+    statModifiers: []
+  physicalAtk:
+    BaseValue: 10
+    statModifiers: []
+  fireAtk:
+    BaseValue: 0
+    statModifiers: []
+  electricAtk:
+    BaseValue: 0
+    statModifiers: []
+  physicalDef:
+    BaseValue: 0
+    statModifiers: []
+  fireStatus:
+    Value: 0
+    resistance:
+      BaseValue: 0
+      statModifiers: []
+    defence:
+      BaseValue: 0
+      statModifiers: []
+    isMaxed: 0
+    ailmentLimit: 100
+  electricStatus:
+    Value: 0
+    resistance:
+      BaseValue: 0
+      statModifiers: []
+    defence:
+      BaseValue: 0
+      statModifiers: []
+    isMaxed: 0
+    ailmentLimit: 100
+  ailmentLimitOffset: 10
+  currentHealth: 0
+  currentMana: 0
 --- !u!1 &8783602388831192933
 GameObject:
   m_ObjectHideFlags: 0
@@ -695,7 +786,7 @@ Transform:
   m_GameObject: {fileID: 8783602388831192933}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.242, y: -0.026, z: 0}
+  m_LocalPosition: {x: 1.648, y: 0.159, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

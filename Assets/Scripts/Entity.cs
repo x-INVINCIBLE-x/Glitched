@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Entity : MonoBehaviour
 {
+    public CharacterStats stats { get; private set; }
+
     public int facingDir { get; private set; } = 1;
     public bool facingRight = true;
 
@@ -12,8 +14,13 @@ public class Entity : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float groundCheckDistance;
     [Space]
+
     [SerializeField] private Transform wallCheck;
     [SerializeField] private float wallCheckDistance;
+
+    [Header("Attack Info")]
+    public Transform attackCheck;
+    public float attackCheckRadius;
 
     public Rigidbody2D rb {  get; private set; }
     public Animator animator { get; private set; }
@@ -22,11 +29,11 @@ public class Entity : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponentInChildren<Animator>();
+        stats = GetComponent<CharacterStats>();
     }
 
     protected virtual void Start()
     {
-        
     }
 
     protected virtual void Update()
@@ -83,5 +90,8 @@ public class Entity : MonoBehaviour
 
         Gizmos.color = Color.blue;
         Gizmos.DrawLine(wallCheck.position, new Vector3((wallCheck.position.x + (wallCheckDistance * facingDir)), wallCheck.position.y));
+
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(attackCheck.position, attackCheckRadius);
     }
 }
