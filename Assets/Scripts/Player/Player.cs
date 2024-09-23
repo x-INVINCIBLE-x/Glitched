@@ -88,11 +88,14 @@ public class Player : Entity
 
         stateMachine.Initialize(idleState);
         skillManager = SkillManager.instance;
+
+        GlitchManager = GlitchManager.Instance;
+        GlitchManager.onGlitchUpdate += OnGlitchesUpdate;
     }
 
     private void OnEnable()
     {
-        GlitchManager.onGlitchUpdate += OnGlitchesUpdate;
+        
     }
 
     protected override void Update()

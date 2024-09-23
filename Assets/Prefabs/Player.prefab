@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3137678782601572638}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7627338952145349561}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WallCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2544837076217730603}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: AttackCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3790050231236674003}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LedgeCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 1368597005470573112}
   - component: {fileID: 784609365435275955}
   - component: {fileID: 8175749385302428107}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Animator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -240,7 +240,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5209039160852565470}
   - component: {fileID: 7841327386325932234}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -326,7 +326,7 @@ GameObject:
   - component: {fileID: 2791486018650937346}
   - component: {fileID: 6932910906029851962}
   - component: {fileID: 7632344108324807984}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Animator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -386,8 +386,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 522017353
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -1386388822, guid: b7c98680ddea27743befd3bf1971f077, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -442,7 +442,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1657148019957398725}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FireBreathHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -475,7 +475,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7724224624781461416}
   - component: {fileID: 916888492135326762}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FireBreath
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -524,7 +524,7 @@ GameObject:
   - component: {fileID: 2095447381939493521}
   - component: {fileID: 1296260862425578476}
   - component: {fileID: 8866373140652057452}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -612,8 +612,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.093090534}
-  m_Size: {x: 0.87119865, y: 2.88198}
+  m_Offset: {x: 0.17, y: -0.046546936}
+  m_Size: {x: 0.61, y: 2.7888927}
   m_Direction: 0
 --- !u!61 &2095447381939493521
 BoxCollider2D:
@@ -622,7 +622,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8740496053050839610}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -672,6 +672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86253337ecbeb2842b98205b6c8e60ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GlitchManager: {fileID: 0}
   facingRight: 1
   groundLayer:
     serializedVersion: 2
@@ -770,7 +771,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4166204075908508472}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shooting Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
