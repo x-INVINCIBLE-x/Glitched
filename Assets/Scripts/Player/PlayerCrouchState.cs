@@ -22,7 +22,7 @@ public class PlayerCrouchState : PlayerCrouchBaseState
             stateMachine.ChangeState(player.idleState);
 
         if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.LeftControl))
-            player.animator.SetTrigger("CrouchAttack");
+            player.anim.SetTrigger("CrouchAttack");
 
         player.FlipController(xInput);
     }

@@ -28,6 +28,8 @@ public class GlitchManager : MonoBehaviour
     public List<Glitches> activeGlitches;
     public int maxGlitches = 1;
     public int currGlitches = 0;
+    [SerializeField] private float glitchChangeCooldown = 2f;
+    private float lastTimeGlitchChanged = -10f;
 
     [Header("Speed Glitch Details")]
     [field: SerializeField][Range(0f, 1f)] public float minSpeedVariation;
@@ -63,6 +65,9 @@ public class GlitchManager : MonoBehaviour
 
     private void UpdateGlitches(int toGlitch)
     {
+        if (Time.time < lastTimeGlitchChanged + glitchChangeCooldown)
+            return;
+
         if (CheckActiveGlitches((Glitches)toGlitch))
             return;
 
@@ -87,6 +92,8 @@ public class GlitchManager : MonoBehaviour
                 GlitchedDirection = true;
                 break;
         }
+
+        lastTimeGlitchChanged = Time.time; 
 
         onGlitchUpdate?.Invoke();
         activeGlitches.Add((Glitches)toGlitch);

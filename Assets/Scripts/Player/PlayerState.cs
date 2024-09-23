@@ -25,7 +25,7 @@ public class PlayerState
 
     public virtual void Enter()
     {
-        player.animator.SetBool(animBoolName, true);
+        player.anim.SetBool(animBoolName, true);
         rb = player.rb;
         triggerCalled = false;
     }
@@ -37,12 +37,12 @@ public class PlayerState
         xInput = Input.GetAxisRaw("Horizontal");
         yInput = Input.GetAxisRaw("Vertical");
 
-        player.animator.SetFloat("yVelocity", rb.velocity.y);
+        player.anim.SetFloat("yVelocity", rb.velocity.y);
     }
 
     public virtual void Exit() 
     {
-        player.animator.SetBool(animBoolName, false);
+        player.anim.SetBool(animBoolName, false);
     }
 
     public virtual void AnimationTrigger() => triggerCalled = true;

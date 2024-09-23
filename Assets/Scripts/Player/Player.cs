@@ -123,11 +123,11 @@ public class Player : Entity
         }
     }
 
-    public void SetFireSwordController() => animator.runtimeAnimatorController = fireSwordAnimator;
+    public void SetFireSwordController() => anim.runtimeAnimatorController = fireSwordAnimator;
     public void SetDefaultController()
     {
         PlayerState currentState = stateMachine.currentState;
-        animator.runtimeAnimatorController = defaultAnimator;
+        anim.runtimeAnimatorController = defaultAnimator;
         stateMachine.ChangeState(currentState);
     }
 

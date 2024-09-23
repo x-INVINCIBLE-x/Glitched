@@ -30,7 +30,7 @@ public class PlayerPrimaryAttackState : PlayerState
         if(xInput != 0)
             attackDir = xInput;
 
-        player.animator.SetInteger("ComboCounter", comboCount);
+        player.anim.SetInteger("ComboCounter", comboCount);
         player.SetVelcocityAfterDelay(player.attackForce[comboCount].x * attackDir, player.attackForce[comboCount].y, 0.075f);
 
         comboCount++;

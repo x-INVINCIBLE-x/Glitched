@@ -12,11 +12,11 @@ public class Entity : MonoBehaviour
 
     [Header("Collision Check")]
     [SerializeField] private LayerMask groundLayer;
-    [SerializeField] private Transform groundCheck;
+    [SerializeField] protected Transform groundCheck;
     public float groundCheckDistance;
     [Space]
 
-    [SerializeField] private Transform wallCheck;
+    [SerializeField] protected Transform wallCheck;
     [SerializeField] private float wallCheckDistance;
 
     [Header("Attack Info")]
@@ -24,12 +24,12 @@ public class Entity : MonoBehaviour
     public float attackCheckRadius;
 
     public Rigidbody2D rb {  get; private set; }
-    public Animator animator { get; private set; }
+    public Animator anim { get; private set; }
 
     protected virtual void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponentInChildren<Animator>();
+        anim = GetComponentInChildren<Animator>();
         Stats = GetComponent<CharacterStats>();
         GlitchManager = GlitchManager.Instance;
     }
@@ -80,10 +80,18 @@ public class Entity : MonoBehaviour
         rb.velocity = Vector3.zero;
     }
 
+    public virtual void SlowEntityBy(float _slowPercentage, float _slowDuration)
+    {
+
+    }
+
+    protected virtual void ReturnDefaultSpeed()
+    {
+        anim.speed = 1;
+    }
 
     public bool isGroundDetected => Physics2D.Raycast(groundCheck.position, Vector3.down, groundCheckDistance, groundLayer);
     public bool isWallDetected => Physics2D.Raycast(wallCheck.position, Vector3.right * facingDir, wallCheckDistance, groundLayer);
-
 
     protected virtual void OnDrawGizmos()
     {
