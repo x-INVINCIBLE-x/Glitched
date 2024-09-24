@@ -23,7 +23,7 @@ public class PlayerGroundedState : PlayerState
             stateMachine.ChangeState(player.jumpState);
         }
 
-        if(!player.isGroundDetected)
+        if(!player.IsGroundDetected)
         {
             stateMachine.ChangeState(player.airState);
         }

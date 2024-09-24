@@ -18,7 +18,7 @@ public class PlayerIdleState : PlayerGroundedState
     {
         base.Update();
 
-        if (player.isWallDetected && xInput == player.facingDir)
+        if (player.IsWallDetected && xInput == player.facingDir)
             return;
 
         if (yInput < 0)

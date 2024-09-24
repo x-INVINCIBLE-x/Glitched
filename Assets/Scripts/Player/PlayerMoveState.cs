@@ -18,13 +18,13 @@ public class PlayerMoveState : PlayerGroundedState
     {
         base.Update();
 
-        if (xInput == 0 || (player.isWallDetected && xInput == player.facingDir))
+        if (xInput == 0 || (player.IsWallDetected && xInput == player.facingDir))
             player.stateMachine.ChangeState(player.idleState);
 
         if(yInput == -1 && stateTimer <= 0)
             stateMachine.ChangeState(player.crouchDashState);
 
-        player.SetVelcocity(player.moveSpeed * xInput, rb.velocity.y);
+        player.SetVelocity(player.moveSpeed * xInput, rb.velocity.y);
 
     }
 

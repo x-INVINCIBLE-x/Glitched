@@ -151,7 +151,7 @@ public class Player : Entity
         }
     }
 
-    public override void SetVelcocity(float xVelocity, float yVelocity)
+    public override void SetVelocity(float xVelocity, float yVelocity)
     {
         if (GlitchManager.GlitchedDirection)
         {
@@ -171,7 +171,7 @@ public class Player : Entity
             yVelocity *= jumpMultiplier;
         }
 
-        base.SetVelcocity(xVelocity, yVelocity);
+        base.SetVelocity(xVelocity, yVelocity);
     }
 
     protected override void OnDrawGizmos()

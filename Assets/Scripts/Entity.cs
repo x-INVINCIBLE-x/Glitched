@@ -58,7 +58,7 @@ public class Entity : MonoBehaviour
         transform.Rotate(0, 180, 0);
     }
 
-    public virtual void SetVelcocity(float xVelocity, float yVelocity)
+    public virtual void SetVelocity(float xVelocity, float yVelocity)
     {
         rb.velocity = new(xVelocity, yVelocity);
         FlipController(xVelocity);
@@ -72,7 +72,7 @@ public class Entity : MonoBehaviour
     IEnumerator SetVelocityAfter(float xVelocity, float yVelocity, float time)
     {
         yield return new WaitForSeconds(time);
-        SetVelcocity(xVelocity, yVelocity);
+        SetVelocity(xVelocity, yVelocity);
     }
 
     public void SetZeroVelocity()
@@ -90,8 +90,8 @@ public class Entity : MonoBehaviour
         anim.speed = 1;
     }
 
-    public bool isGroundDetected => Physics2D.Raycast(groundCheck.position, Vector3.down, groundCheckDistance, groundLayer);
-    public bool isWallDetected => Physics2D.Raycast(wallCheck.position, Vector3.right * facingDir, wallCheckDistance, groundLayer);
+    public bool IsGroundDetected => Physics2D.Raycast(groundCheck.position, Vector3.down, groundCheckDistance, groundLayer);
+    public bool IsWallDetected => Physics2D.Raycast(wallCheck.position, Vector3.right * facingDir, wallCheckDistance, groundLayer);
 
     protected virtual void OnDrawGizmos()
     {

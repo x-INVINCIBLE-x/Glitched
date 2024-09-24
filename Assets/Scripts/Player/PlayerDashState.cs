@@ -18,7 +18,7 @@ public class PlayerDashState : PlayerState
     public override void Update()
     {
         base.Update();
-        player.SetVelcocity(player.dashSpeed * player.facingDir, 0);
+        player.SetVelocity(player.dashSpeed * player.facingDir, 0);
 
         if(stateTimer <= 0)
         {
@@ -31,6 +31,6 @@ public class PlayerDashState : PlayerState
     {
         base.Exit();
         player.isBusy = false;
-        player.SetVelcocity(0, rb.velocity.y);
+        player.SetVelocity(0, rb.velocity.y);
     }
 }

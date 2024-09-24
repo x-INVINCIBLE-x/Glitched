@@ -11,7 +11,6 @@ public class Enemy : Entity
 {
     [SerializeField] protected LayerMask whatIsPlayer;
 
-
     [Header("Stunned info")]
     public float stunDuration = 1;
     public Vector2 stunDirection = new Vector2(10,12);
@@ -33,14 +32,16 @@ public class Enemy : Entity
     [HideInInspector] public float lastTimeAttacked;
 
     public EnemyStateMachine stateMachine { get; private set; }
+    public string lastAnimBoolName {  get; private set; }
     //public EntityFX fx { get; private set; }
     private Player player;
-    public string lastAnimBoolName {  get; private set; }
+    public Collider2D cd;
+
     protected override void Awake()
     {
         base.Awake();
         stateMachine = new EnemyStateMachine();
-
+        cd = GetComponent<Collider2D>();
         defaultMoveSpeed = moveSpeed;
     }
 
@@ -55,10 +56,7 @@ public class Enemy : Entity
     {
         base.Update();
 
-
         stateMachine.currentState.Update();
-
-
     }
 
     public virtual void AssignLastAnimName(string _animBoolName) => lastAnimBoolName = _animBoolName;
@@ -100,7 +98,7 @@ public class Enemy : Entity
         FreezeTime(true);
 
         yield return new WaitForSeconds(_seconds);
-
+     
         FreezeTime(false);
     }
 
@@ -129,18 +127,25 @@ public class Enemy : Entity
         return false;
     }
 
+    public virtual void Die()
+    {
+
+    }
+
     public virtual void AnimationFinishTrigger() => stateMachine.currentState.AnimationFinishTrigger();
     public virtual void AnimationSpecialAttackTrigger()
     {
 
     }
 
-    public virtual RaycastHit2D IsPlayerDetected() => Physics2D.Raycast(wallCheck.position, Vector2.right * facingDir, 50, whatIsPlayer);
+    public virtual RaycastHit2D IsPlayerDetected() => Physics2D.Raycast(wallCheck.position, Vector2.right * facingDir, 15, whatIsPlayer);
     protected override void OnDrawGizmos()
     {
         base.OnDrawGizmos();
 
         Gizmos.color = Color.yellow;
         Gizmos.DrawLine(transform.position, new Vector3(transform.position.x + attackDistance * facingDir, transform.position.y));
+
+        Gizmos.DrawLine(wallCheck.position, new Vector3(15 * facingDir, wallCheck.position.y, 0));
     }
 }

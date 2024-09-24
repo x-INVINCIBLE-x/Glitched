@@ -55,6 +55,7 @@ public class CharacterStats : MonoBehaviour
     public bool isBlocking { get; private set; } = false;
     public bool isPerfectBlock { get; private set; } = false;
     public bool isConsumingStamina { get; private set; } = false;
+    public bool isDead { get; private set; } = false;
 
     protected Dictionary<AilmentType, Action> ailmentActions;
     public Dictionary<Stats, Stat> statDictionary;

@@ -20,7 +20,7 @@ public class PlayerCrouchDashState : PlayerCrouchBaseState
     public override void Update()
     {
         slideSpeed -= Time.deltaTime * 3f;
-        player.SetVelcocity(slideSpeed * player.facingDir, rb.velocity.y);
+        player.SetVelocity(slideSpeed * player.facingDir, rb.velocity.y);
 
         if((rb.velocity.x > -1.1f && rb.velocity.x < 1.1f))
         {

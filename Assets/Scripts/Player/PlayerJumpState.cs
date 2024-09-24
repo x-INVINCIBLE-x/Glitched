@@ -12,7 +12,7 @@ public class PlayerJumpState : PlayerState
     {
         base.Enter();
         xInput = 0;
-        player.SetVelcocity(rb.velocity.x, player.jumpForce);
+        player.SetVelocity(rb.velocity.x, player.jumpForce);
     }
 
     public override void Update()
@@ -24,10 +24,10 @@ public class PlayerJumpState : PlayerState
             player.stateMachine.ChangeState(player.airState);
         }
 
-        if (player.isWallDetected && xInput == player.facingDir)
+        if (player.IsWallDetected && xInput == player.facingDir)
             return;
 
-        player.SetVelcocity(player.moveSpeed * xInput * 0.8f, rb.velocity.y);
+        player.SetVelocity(player.moveSpeed * xInput * 0.8f, rb.velocity.y);
 
     }
 
