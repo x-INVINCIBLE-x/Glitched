@@ -45,6 +45,9 @@ public class Entity : MonoBehaviour
 
     public void FlipController(float _x)
     {
+        //if (_x == 0)
+        //    return;
+
         if (_x > 0 && !facingRight)
             Flip();
         else if (_x < 0 && facingRight)

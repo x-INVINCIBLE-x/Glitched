@@ -9,7 +9,7 @@ public class EnemyState
     protected Enemy enemyBase;
     protected Rigidbody2D rb;
 
-    private string animBoolName;
+    protected string animBoolName { get; private set; }
 
     protected float stateTimer;
     protected bool triggerCalled;

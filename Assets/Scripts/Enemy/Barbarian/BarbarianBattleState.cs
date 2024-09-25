@@ -17,8 +17,9 @@ public class BarbarianBattleState : EnemyState
     public override void Enter()
     {
         base.Enter();
-
         player = PlayerManager.instance.player.transform;
+
+        stateTimer = enemy.battleTime;
 
         if (player.GetComponent<PlayerStats>().isDead)
             stateMachine.ChangeState(enemy.moveState);        
@@ -36,15 +37,22 @@ public class BarbarianBattleState : EnemyState
             {
                 if (CanAttack())
                     stateMachine.ChangeState(enemy.attackState);
+                else
+                {
+                    enemy.anim.SetBool("Idle", true);
+                    enemy.anim.SetBool(animBoolName, false);
+                    return;
+                }
             }
         }
         else 
         {
-            if (stateTimer < 0 || Vector2.Distance(player.transform.position, enemy.transform.position) > 7)
+            if (stateTimer < 0 || Vector2.Distance(player.transform.position, enemy.transform.position) > enemy.agroDistance)
+            {
                 stateMachine.ChangeState(enemy.idleState);
+                return;
+            }
         }
-
-
 
         if (player.position.x > enemy.transform.position.x)
             moveDir = 1;
@@ -57,6 +65,7 @@ public class BarbarianBattleState : EnemyState
     public override void Exit()
     {
         base.Exit();
+        enemy.anim.SetBool("Idle", false);
     }
 
     private bool CanAttack()

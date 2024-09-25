@@ -13,7 +13,7 @@ public class BarbarianIdleState : SkeletonGroundedState
         base.Enter();
 
         stateTimer = enemy.idleTime;
-
+        enemy.SetZeroVelocity();
     }
 
     public override void Exit()

@@ -146,6 +146,6 @@ public class Enemy : Entity
         Gizmos.color = Color.yellow;
         Gizmos.DrawLine(transform.position, new Vector3(transform.position.x + attackDistance * facingDir, transform.position.y));
 
-        Gizmos.DrawLine(wallCheck.position, new Vector3(15 * facingDir, wallCheck.position.y, 0));
+        Gizmos.DrawLine(wallCheck.position + new Vector3(0, 0.5f, 0), new Vector3(15 * facingDir, wallCheck.position.y + 0.5f, 0));
     }
 }
