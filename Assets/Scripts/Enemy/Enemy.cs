@@ -5,10 +5,14 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(CapsuleCollider2D))]
 [RequireComponent(typeof(EnemyStats))]
+[RequireComponent(typeof(Enemy_GlitchController))]
 //[RequireComponent(typeof(EntityFX))]
 //[RequireComponent(typeof(ItemDrop))]
 public class Enemy : Entity
 {
+    private Player player;
+    private Enemy_GlitchController glitchController;
+    [HideInInspector] public Collider2D cd;
     [SerializeField] protected LayerMask whatIsPlayer;
 
     [Header("Stunned info")]
@@ -34,14 +38,13 @@ public class Enemy : Entity
     public EnemyStateMachine stateMachine { get; private set; }
     public string lastAnimBoolName {  get; private set; }
     //public EntityFX fx { get; private set; }
-    private Player player;
-    public Collider2D cd;
 
     protected override void Awake()
     {
         base.Awake();
         stateMachine = new EnemyStateMachine();
         cd = GetComponent<Collider2D>();
+        glitchController = GetComponent<Enemy_GlitchController>();
         defaultMoveSpeed = moveSpeed;
     }
 
