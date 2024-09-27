@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 
@@ -8,7 +9,7 @@ using UnityEngine;
 [RequireComponent(typeof(Enemy_GlitchController))]
 //[RequireComponent(typeof(EntityFX))]
 //[RequireComponent(typeof(ItemDrop))]
-public class Enemy : Entity
+public class Enemy : Entity, IGlitchable
 {
     private Player player;
     private Enemy_GlitchController glitchController;
@@ -26,6 +27,7 @@ public class Enemy : Entity
     public float idleTime = 2;
     public float battleTime = 7;
     private float defaultMoveSpeed;
+    private float speedMultiplier = 1f;
 
     [Header("Attack info")]
     public float agroDistance = 2;
@@ -64,6 +66,14 @@ public class Enemy : Entity
 
     public virtual void AssignLastAnimName(string _animBoolName) => lastAnimBoolName = _animBoolName;
 
+    public override void SetVelocity(float xVelocity, float yVelocity)
+    {
+        xVelocity = xVelocity * speedMultiplier;
+        base.SetVelocity(xVelocity, yVelocity);
+    }
+
+    public void SetSpeedMultiplier(float value) => speedMultiplier = value;
+    public void ResetSpeedMuliplier() => speedMultiplier = 1.0f;
 
     public override void SlowEntityBy(float _slowPercentage, float _slowDuration)
     {
@@ -133,6 +143,42 @@ public class Enemy : Entity
     public virtual void Die()
     {
 
+    }
+
+    public void ApplyGlitch(GlitchData glitch)
+    {
+        switch (glitch.type)
+        {
+            case Glitch.MovementSpeed:
+                StartCoroutine(GlitchMovement(glitch.Duration));  // Start movement glitch coroutine
+                break;
+            case Glitch.AttackDamage:
+                StartCoroutine(GlitchAttack(glitch.Duration));  // Start attack glitch coroutine
+                break;
+            default:
+                Debug.Log(glitch.type + " not yet implemented");
+                break;
+                // Add more cases for other glitches
+        }
+    }
+
+    public void RemoveGlitch(GlitchData glitch)
+    {
+        // Handle logic to remove glitch effects (e.g., reset movement, attack behavior)
+    }
+
+    private IEnumerator GlitchMovement(float duration)
+    {
+        SetSpeedMultiplier(2);
+        yield return new WaitForSeconds(duration);
+        ResetSpeedMuliplier();
+    }
+
+    private IEnumerator GlitchAttack(float duration)
+    {
+        // Handle attack glitch logic
+        yield return new WaitForSeconds(duration);
+        // Reset attack to normal
     }
 
     public virtual void AnimationFinishTrigger() => stateMachine.currentState.AnimationFinishTrigger();

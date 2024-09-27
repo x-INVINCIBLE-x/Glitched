@@ -1544,6 +1544,7 @@ GameObject:
   - component: {fileID: 861060448}
   - component: {fileID: 861060447}
   - component: {fileID: 861060446}
+  - component: {fileID: 861060450}
   m_Layer: 8
   m_Name: Enemy_Barbarian
   m_TagString: Untagged
@@ -1649,6 +1650,7 @@ MonoBehaviour:
   wallCheckDistance: 1.5
   attackCheck: {fileID: 64571241}
   attackCheckRadius: 1.27
+  cd: {fileID: 0}
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 128
@@ -1664,7 +1666,6 @@ MonoBehaviour:
   minAttackCooldown: 1
   maxAttackCooldown: 2
   lastTimeAttacked: 0
-  cd: {fileID: 0}
 --- !u!70 &861060448
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1727,6 +1728,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &861060450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861060444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62d8717af917f204d9b2b2fe62d594a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minNextGlitchTime: 1
+  maxNextGlitchTime: 4
+  movGlitchDuration: 2
+  movGlitchCooldown: 6
+  attackDamageGlitchDuration: 2
+  attackDamageGlitchCooldown: 6
 --- !u!1 &914640743
 GameObject:
   m_ObjectHideFlags: 0

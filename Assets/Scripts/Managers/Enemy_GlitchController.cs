@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Enemy_GlitchController : MonoBehaviour
 {
+    #region TODO
     //TODO:
 
     //Movement Glitch
@@ -20,38 +21,90 @@ public class Enemy_GlitchController : MonoBehaviour
     //Enemy dublicate
     //increased aggressiveness
     //glitch movement with teleport 
+    #endregion
 
-    [field: Header("Glitch Info")]
-    public bool movementGlitch { get; private set; } = false;
-    [Range(0f, 2f)] public float minSpeedVariation;
-    [Range(0f, 2f)] public float maxSpeedVariation;
-    [SerializeField] private float speedGlitchCoolDown = 0.5f; // Time for next speed glitch
-    [SerializeField] private float lastTimeSpeedGlitched = -10f;
-    [SerializeField] private float minSpeedGlitchDuration;
-    [SerializeField] private float maxSpeedGlitchDuration;
-    private float currGlitchDuration; // How long the current glitch should last
+    private Enemy enemy; 
+    private List<GlitchData> glitches;  
+    private Dictionary<Glitch, Coroutine> activeGlitchCoroutines;  
 
-    [Header("Attack Info")]
-    public bool attackSpeedGlitch;
-    public bool attackDamageGlitch;
-    [Range(0f, 1f)] public float minAttackSpeedVariation;
-    [Range(0f, 1f)] public float maxAttackSpeedVariation;
-    [SerializeField] private float attackGlitchCoolDown = 0.5f;
-    [SerializeField] private float lastTimeAttackGlitched = -10f;
+    private float nextGlitchTime;
 
-    public bool CanMovementGlitch(float glitchProbability)
+    [Header("Generic Glitch Info")]
+    [SerializeField] private float minNextGlitchTime = 1f;
+    [SerializeField] private float maxNextGlitchTime = 4f;
+
+    [Header("Movement Glitch Info")]
+    [SerializeField] private float movGlitchDuration;
+    [SerializeField] private float movGlitchCooldown;
+
+    [Header("Attack Damage Glitch Info")]
+    [SerializeField] private float attackDamageGlitchDuration;
+    [SerializeField] private float attackDamageGlitchCooldown;
+
+    public class ActiveGlitch
     {
-        if (lastTimeSpeedGlitched + speedGlitchCoolDown > Time.time)
-            return true;
+        public GlitchData Glitch { get; private set; }
+        public float Duration { get; set; }
 
-        if (currGlitchDuration + lastTimeSpeedGlitched > Time.time)
-            return false;
+        public ActiveGlitch(GlitchData glitch)
+        {
+            Glitch = glitch;
+            Duration = glitch.Duration;  // Set initial duration
+        }
+    }
 
-        float chance = Random.Range(0, 1f);
-        if (glitchProbability > chance)
-            return false;
+    private void Awake()
+    {
+        enemy = GetComponent<Enemy>();
+    }
 
-        lastTimeSpeedGlitched = Time.time;
-        return true;
+    void Start()
+    {
+        glitches = new List<GlitchData>
+        {
+            new GlitchData(Glitch.MovementSpeed, movGlitchDuration, movGlitchCooldown),
+            new GlitchData(Glitch.AttackDamage, attackDamageGlitchDuration, attackDamageGlitchCooldown)
+            // Add more glitches here
+        };
+        activeGlitchCoroutines = new Dictionary<Glitch, Coroutine>();  
+
+        ScheduleNextGlitch();
+    }
+
+    void Update()
+    {
+        if (Time.time >= nextGlitchTime)
+        {
+            TriggerRandomGlitch();
+        }
+    }
+
+    private void ScheduleNextGlitch()
+    {
+        float randomCooldown = Random.Range(minNextGlitchTime, maxNextGlitchTime);
+        nextGlitchTime = Time.time + randomCooldown;
+    }
+
+    private void TriggerRandomGlitch()
+    {
+        GlitchData glitch = glitches[Random.Range(0, glitches.Count)];
+        if (!activeGlitchCoroutines.ContainsKey(glitch.type))
+        {
+            Coroutine glitchCoroutine = StartCoroutine(ApplyGlitch(glitch));
+            activeGlitchCoroutines[glitch.type] = glitchCoroutine;
+        }
+
+        ScheduleNextGlitch();
+    }
+
+    private IEnumerator ApplyGlitch(GlitchData glitch)
+    {
+        enemy.ApplyGlitch(glitch);  
+
+        yield return new WaitForSeconds(glitch.Duration);  
+
+        enemy.RemoveGlitch(glitch);  
+
+        activeGlitchCoroutines.Remove(glitch.type);
     }
 }
