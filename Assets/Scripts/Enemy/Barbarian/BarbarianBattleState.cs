@@ -21,6 +21,8 @@ public class BarbarianBattleState : EnemyState
 
         stateTimer = enemy.battleTime;
 
+        enemy.SetZeroVelocity();
+
         if (player.GetComponent<PlayerStats>().isDead)
             stateMachine.ChangeState(enemy.moveState);        
     }
@@ -28,7 +30,7 @@ public class BarbarianBattleState : EnemyState
     public override void Update()
     {
         base.Update();
-
+        SetAnimation();
         if (enemy.IsPlayerDetected())
         {
             stateTimer = enemy.battleTime;
@@ -38,13 +40,9 @@ public class BarbarianBattleState : EnemyState
                 if (enemy.CanAttack())
                 {
                     stateMachine.ChangeState(enemy.attackState);
-                    return;
                 }
-                else
-                {
-                    stateMachine.ChangeState(enemy.holdState);
+                
                     return;
-                }
             }
         }
         else 
@@ -54,8 +52,9 @@ public class BarbarianBattleState : EnemyState
                 stateMachine.ChangeState(enemy.idleState);
                 return;
             }
+            else
+                enemy.Flip();
         }
-
 
         if (player.position.x > enemy.transform.position.x)
             moveDir = 1;
@@ -63,11 +62,30 @@ public class BarbarianBattleState : EnemyState
             moveDir = -1;
 
         if (Vector2.Distance(player.transform.position, enemy.transform.position) > enemy.attackDistance)
+        {
             enemy.SetVelocity(enemy.moveSpeed * moveDir, rb.velocity.y);
+        }
+        else
+            enemy.SetZeroVelocity();
     }
 
     public override void Exit()
     {
         base.Exit();
+        enemy.anim.SetBool("Idle", false);
+    }
+
+    private void SetAnimation()
+    {
+        if (enemy.rb.velocity.x == 0)
+        {
+            enemy.anim.SetBool(animBoolName, false);
+            enemy.anim.SetBool("Idle", true);
+        }
+        else
+        {
+            enemy.anim.SetBool(animBoolName, true);
+            enemy.anim.SetBool("Idle", false);
+        }
     }
 }
