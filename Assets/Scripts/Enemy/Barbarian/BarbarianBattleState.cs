@@ -35,15 +35,14 @@ public class BarbarianBattleState : EnemyState
 
             if (enemy.IsPlayerDetected().distance < enemy.attackDistance)
             {
-                if (CanAttack())
+                if (enemy.CanAttack())
                 {
                     stateMachine.ChangeState(enemy.attackState);
                     return;
                 }
                 else
                 {
-                    enemy.anim.SetBool("Idle", true);
-                    enemy.anim.SetBool(animBoolName, false);
+                    stateMachine.ChangeState(enemy.holdState);
                     return;
                 }
             }
@@ -63,26 +62,12 @@ public class BarbarianBattleState : EnemyState
         else if (player.position.x < enemy.transform.position.x)
             moveDir = -1;
 
-        enemy.anim.SetBool("Idle", false);
-        enemy.anim.SetBool(animBoolName, true);
-        enemy.SetVelocity(enemy.moveSpeed * moveDir, rb.velocity.y);
+        if (Vector2.Distance(player.transform.position, enemy.transform.position) > enemy.attackDistance)
+            enemy.SetVelocity(enemy.moveSpeed * moveDir, rb.velocity.y);
     }
 
     public override void Exit()
     {
         base.Exit();
-        enemy.anim.SetBool("Idle", false);
-    }
-
-    private bool CanAttack()
-    {
-        if (Time.time >= enemy.lastTimeAttacked + enemy.attackCooldown)
-        {
-            enemy.attackCooldown = Random.Range(enemy.minAttackCooldown, enemy.maxAttackCooldown);
-            enemy.lastTimeAttacked = Time.time;
-            return true;
-        }
-
-        return false;
     }
 }

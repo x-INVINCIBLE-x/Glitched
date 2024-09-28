@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public class Enemy_AnimationTriggers : MonoBehaviour
 {
@@ -17,11 +18,8 @@ public class Enemy_AnimationTriggers : MonoBehaviour
 
         foreach (var hit in colliders)
         {
-            if (hit.GetComponent<Player>() != null)
-            {
-                PlayerStats target = hit.GetComponent<PlayerStats>();
+            if (hit.TryGetComponent(out PlayerStats target))
                 enemy.Stats.DoDamage(target);
-            }
         }
     }
     private void SpeicalAttackTrigger()

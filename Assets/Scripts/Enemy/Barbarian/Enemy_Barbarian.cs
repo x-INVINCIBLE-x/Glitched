@@ -12,7 +12,7 @@ public class Enemy_Barbarian : Enemy
     public BarbarianMoveState moveState { get; private set; }
     public BarbarianBattleState battleState { get; private set; }
     public BarbarianAttackState attackState { get; private set; }
-
+    public BarbarianAttackHoldState holdState { get; private set; }
     public BarbarianStunnedState stunnedState { get; private set; }
     public BarbarianDeadState deadState { get; private set; }
     #endregion
@@ -25,6 +25,7 @@ public class Enemy_Barbarian : Enemy
         moveState = new BarbarianMoveState(this, stateMachine, "Move", this);
         battleState = new BarbarianBattleState(this, stateMachine, "Move", this);
         attackState = new BarbarianAttackState(this, stateMachine, "Attack", this);
+        holdState = new BarbarianAttackHoldState(this, stateMachine, "Idle", this);
         stunnedState = new BarbarianStunnedState(this, stateMachine, "Stunned", this);
         deadState = new BarbarianDeadState(this, stateMachine, "Death", this);
     }
@@ -50,6 +51,18 @@ public class Enemy_Barbarian : Enemy
     protected override void Update()
     {
         base.Update();
+    }
+
+    public bool CanAttack()
+    {
+        if (Time.time >= lastTimeAttacked + attackCooldown)
+        {
+            attackCooldown = Random.Range(minAttackCooldown, maxAttackCooldown);
+            lastTimeAttacked = Time.time;
+            return true;
+        }
+
+        return false;
     }
 
     public override void Die()
