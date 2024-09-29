@@ -32,7 +32,6 @@ public class EnemyState
         triggerCalled = false;
         rb = enemyBase.rb;
         enemyBase.anim.SetBool(animBoolName, true);
-        
     }
 
     public virtual void Exit()

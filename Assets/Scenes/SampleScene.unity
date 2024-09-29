@@ -1561,7 +1561,7 @@ Transform:
   m_GameObject: {fileID: 861060444}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.73, y: -7.84, z: 0}
+  m_LocalPosition: {x: -4, y: -7.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1654,6 +1654,9 @@ MonoBehaviour:
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 128
+  minAnimationSpeed: 0.5
+  maxAnimationSpeed: 2
+  attackAnimationSpeed: 1
   stunDuration: 1
   stunDirection: {x: 10, y: 12}
   counterImage: {fileID: 0}
@@ -1743,13 +1746,21 @@ MonoBehaviour:
   activeGlitches: 
   glitchDetails:
   - glitch: 0
-    minCooldown: 1
-    maxCooldown: 2
+    minCooldown: Infinity
+    maxCooldown: Infinity
     duration: 2
   - glitch: 1
-    minCooldown: 10
-    maxCooldown: 15
+    minCooldown: Infinity
+    maxCooldown: Infinity
     duration: 5
+  - glitch: 2
+    minCooldown: Infinity
+    maxCooldown: Infinity
+    duration: 5
+  - glitch: 3
+    minCooldown: 0.2
+    maxCooldown: 1
+    duration: 1
 --- !u!1 &914640743
 GameObject:
   m_ObjectHideFlags: 0
@@ -5976,7 +5987,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5595263969418385526, guid: 1583e3310c6a22044bb60d001285e5d6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.96
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5595263969418385526, guid: 1583e3310c6a22044bb60d001285e5d6, type: 3}
       propertyPath: m_LocalPosition.y

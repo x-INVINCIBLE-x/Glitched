@@ -6,7 +6,10 @@ public enum Glitch
 {
     MovementSpeed,
     AttackDamage,
-    AttackSpeed
+    AttackSpeed,
+    Teleportation,
+    Phase,
+    Dublicate
 }
 
 public class GlitchData

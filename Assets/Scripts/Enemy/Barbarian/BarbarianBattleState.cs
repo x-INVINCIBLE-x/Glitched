@@ -17,6 +17,8 @@ public class BarbarianBattleState : EnemyState
     public override void Enter()
     {
         base.Enter();
+
+        enemy.SetInBattle(true);
         player = PlayerManager.instance.player.transform;
 
         stateTimer = enemy.battleTime;
@@ -73,6 +75,7 @@ public class BarbarianBattleState : EnemyState
     {
         base.Exit();
         enemy.anim.SetBool("Idle", false);
+        enemy.SetInBattle(false);
     }
 
     private void SetAnimation()

@@ -14,12 +14,15 @@ public class BarbarianAttackState : EnemyState
     public override void Enter()
     {
         base.Enter();
+        enemy.SetInBattle(true);
+        enemy.anim.speed = enemy.attackAnimationSpeed;
     }
 
     public override void Exit()
     {
         base.Exit();
-
+        enemy.SetInBattle(false);
+        enemy.anim.speed = 1f;
         enemy.lastTimeAttacked = Time.time;
     }
 

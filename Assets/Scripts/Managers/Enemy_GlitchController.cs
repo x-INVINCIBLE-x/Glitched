@@ -8,15 +8,13 @@ public class Enemy_GlitchController : MonoBehaviour
     #region TODO
     //TODO:
 
-    //Movement Glitch
     //Attack anim speed inc/ dec
-    //no damage
 
     //Level 2
     //Teleportation
     //Phase
     //Attack cooldown dec {Not like Glitch}
-    // movement speed inc {Not like glitch}
+    //movement speed inc {Not like glitch}
 
     //Level 3 
     //Enemy dublicate

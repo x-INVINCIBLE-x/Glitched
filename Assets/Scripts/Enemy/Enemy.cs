@@ -16,6 +16,11 @@ public class Enemy : Entity, IGlitchable
     [HideInInspector] public Collider2D cd;
     [SerializeField] protected LayerMask whatIsPlayer;
 
+    [Header("Generic Info")]
+    [SerializeField] [Range(0f, 2f)] private float minAnimationSpeed;
+    [SerializeField] [Range(0f, 2f)] private float maxAnimationSpeed;
+    public float attackAnimationSpeed = 1f;
+
     [Header("Stunned info")]
     public float stunDuration = 1;
     public Vector2 stunDirection = new Vector2(10,12);
@@ -30,6 +35,7 @@ public class Enemy : Entity, IGlitchable
     private float speedMultiplier = 1f;
 
     [Header("Attack info")]
+    private bool isInBattle = false;
     public float agroDistance = 2;
     public float attackDistance = 2;
     public float attackCooldown;
@@ -53,7 +59,7 @@ public class Enemy : Entity, IGlitchable
     protected override void Start()
     {
         base.Start();
-
+        player = PlayerManager.instance.player.GetComponent<Player>();
         //fx = GetComponent<EntityFX>();
     }
 
@@ -155,6 +161,12 @@ public class Enemy : Entity, IGlitchable
             case Glitch.AttackDamage:
                 StartCoroutine(GlitchAttackDamage(glitch.Duration));  
                 break;
+            case Glitch.AttackSpeed:
+                StartCoroutine(GlitchAttackSpeed(glitch.Duration));
+                break;
+            case Glitch.Teleportation:
+                StartCoroutine(GlitchTeleportation(glitch.Duration));
+                break;
             default:
                 Debug.Log(glitch.type + " not yet implemented");
                 break;
@@ -182,6 +194,36 @@ public class Enemy : Entity, IGlitchable
         enemyStats.SetGlitchedDamage(false);
     }
 
+    private IEnumerator GlitchAttackSpeed(float duration)
+    {
+        attackAnimationSpeed = Random.Range(minAnimationSpeed, maxAnimationSpeed);
+        yield return new WaitForSeconds(duration);
+        attackAnimationSpeed = 1f;
+    }
+
+    private IEnumerator GlitchTeleportation(float duration)
+    {
+        if (!isInBattle)
+            yield break;
+
+        Vector3 startPosition = transform.position;
+
+        float offset =  2.5f * facingDir;
+        Vector3 newPosition = new Vector3(player.transform.position.x + offset, player.transform.position.y, 0);
+        transform.position = newPosition;
+
+        float animSpeed = anim.speed;
+        anim.speed = 0;
+
+        yield return new WaitForSeconds(0.5f);
+        anim.speed = animSpeed;
+
+        yield return new WaitForSeconds(duration);
+        
+        //transform.position = startPosition; 
+    }
+
+    public void SetInBattle(bool inBattle) => isInBattle = inBattle;
     public virtual void AnimationFinishTrigger() => stateMachine.currentState.AnimationFinishTrigger();
     public virtual void AnimationSpecialAttackTrigger()
     {
