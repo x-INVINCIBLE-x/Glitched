@@ -150,10 +150,10 @@ public class Enemy : Entity, IGlitchable
         switch (glitch.type)
         {
             case Glitch.MovementSpeed:
-                StartCoroutine(GlitchMovement(glitch.Duration));  // Start movement glitch coroutine
+                StartCoroutine(GlitchMovement(glitch.Duration));  
                 break;
             case Glitch.AttackDamage:
-                StartCoroutine(GlitchAttack(glitch.Duration));  // Start attack glitch coroutine
+                StartCoroutine(GlitchAttackDamage(glitch.Duration));  
                 break;
             default:
                 Debug.Log(glitch.type + " not yet implemented");
@@ -164,7 +164,7 @@ public class Enemy : Entity, IGlitchable
 
     public void RemoveGlitch(GlitchData glitch)
     {
-        // Handle logic to remove glitch effects (e.g., reset movement, attack behavior)
+        // Handle logic to remove glitch effects (ex -  reset movement, attack behavior)
     }
 
     private IEnumerator GlitchMovement(float duration)
@@ -174,11 +174,12 @@ public class Enemy : Entity, IGlitchable
         ResetSpeedMuliplier();
     }
 
-    private IEnumerator GlitchAttack(float duration)
+    private IEnumerator GlitchAttackDamage(float duration)
     {
-        // Handle attack glitch logic
+        EnemyStats enemyStats = Stats as EnemyStats;
+        enemyStats.SetGlitchedDamage(true);
         yield return new WaitForSeconds(duration);
-        // Reset attack to normal
+        enemyStats.SetGlitchedDamage(false);
     }
 
     public virtual void AnimationFinishTrigger() => stateMachine.currentState.AnimationFinishTrigger();

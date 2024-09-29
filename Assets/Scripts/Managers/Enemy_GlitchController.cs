@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.PackageManager;
 using UnityEngine;
 
 public class Enemy_GlitchController : MonoBehaviour
@@ -24,33 +25,19 @@ public class Enemy_GlitchController : MonoBehaviour
     #endregion
 
     private Enemy enemy; 
-    private List<GlitchData> glitches;  
+    [SerializeField] private List<Glitch> activeGlitches;
     private Dictionary<Glitch, Coroutine> activeGlitchCoroutines;  
 
-    private float nextGlitchTime;
+    [SerializeField] private List<GlitchDetails> glitchDetails;
 
-    [Header("Generic Glitch Info")]
-    [SerializeField] private float minNextGlitchTime = 1f;
-    [SerializeField] private float maxNextGlitchTime = 4f;
-
-    [Header("Movement Glitch Info")]
-    [SerializeField] private float movGlitchDuration;
-    [SerializeField] private float movGlitchCooldown;
-
-    [Header("Attack Damage Glitch Info")]
-    [SerializeField] private float attackDamageGlitchDuration;
-    [SerializeField] private float attackDamageGlitchCooldown;
-
-    public class ActiveGlitch
+    [System.Serializable]
+    public class GlitchDetails
     {
-        public GlitchData Glitch { get; private set; }
-        public float Duration { get; set; }
+        public Glitch glitch;
+        public float minCooldown;
+        public float maxCooldown;
 
-        public ActiveGlitch(GlitchData glitch)
-        {
-            Glitch = glitch;
-            Duration = glitch.Duration;  // Set initial duration
-        }
+        public float duration;
     }
 
     private void Awake()
@@ -60,50 +47,48 @@ public class Enemy_GlitchController : MonoBehaviour
 
     void Start()
     {
-        glitches = new List<GlitchData>
-        {
-            new GlitchData(Glitch.MovementSpeed, movGlitchDuration, movGlitchCooldown),
-            new GlitchData(Glitch.AttackDamage, attackDamageGlitchDuration, attackDamageGlitchCooldown)
-            // Add more glitches here
-        };
         activeGlitchCoroutines = new Dictionary<Glitch, Coroutine>();  
 
-        ScheduleNextGlitch();
+        InitializeGlitches();
     }
 
-    void Update()
+    private void InitializeGlitches()
     {
-        if (Time.time >= nextGlitchTime)
+        foreach (GlitchDetails glitchDetail in glitchDetails)
         {
-            TriggerRandomGlitch();
+            if (!activeGlitchCoroutines.ContainsKey(glitchDetail.glitch))
+            {
+                Coroutine glitchCoroutine = StartCoroutine(ManageGlitchLifecycle(glitchDetail));
+                activeGlitchCoroutines[glitchDetail.glitch] = glitchCoroutine;
+            }
         }
     }
 
-    private void ScheduleNextGlitch()
+    private IEnumerator ManageGlitchLifecycle(GlitchDetails glitchDetail)
     {
-        float randomCooldown = Random.Range(minNextGlitchTime, maxNextGlitchTime);
-        nextGlitchTime = Time.time + randomCooldown;
-    }
-
-    private void TriggerRandomGlitch()
-    {
-        GlitchData glitch = glitches[Random.Range(0, glitches.Count)];
-        if (!activeGlitchCoroutines.ContainsKey(glitch.type))
+        while (true)
         {
-            Coroutine glitchCoroutine = StartCoroutine(ApplyGlitch(glitch));
-            activeGlitchCoroutines[glitch.type] = glitchCoroutine;
-        }
+            float randomCooldown = Random.Range(glitchDetail.minCooldown, glitchDetail.maxCooldown);
+            yield return new WaitForSeconds(randomCooldown);
 
-        ScheduleNextGlitch();
+            GlitchData glitch = new GlitchData(glitchDetail.glitch, glitchDetail.duration);
+            StartCoroutine(ApplyGlitch(glitch));
+
+            yield return new WaitForSeconds(glitchDetail.duration);
+        }
     }
 
     private IEnumerator ApplyGlitch(GlitchData glitch)
     {
-        enemy.ApplyGlitch(glitch);  
+        enemy.ApplyGlitch(glitch);
+
+        activeGlitches.Add(glitch.type); // Temporary for Inspector view
 
         yield return new WaitForSeconds(glitch.Duration);  
 
-        enemy.RemoveGlitch(glitch);  
+        enemy.RemoveGlitch(glitch);
+
+        activeGlitches.Remove(glitch.type); // Temporary for Inspector view
 
         activeGlitchCoroutines.Remove(glitch.type);
     }

@@ -13,12 +13,10 @@ public class GlitchData
 {
     public Glitch type { get; private set; }
     public float Duration { get; private set; }
-    public float Cooldown { get; private set; }
 
-    public GlitchData(Glitch type, float duration, float cooldown)
+    public GlitchData(Glitch type, float duration)
     {
         this.type = type;
         Duration = duration;
-        Cooldown = cooldown;
     }
 }

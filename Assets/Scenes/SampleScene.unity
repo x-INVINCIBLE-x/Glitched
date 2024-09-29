@@ -1740,12 +1740,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62d8717af917f204d9b2b2fe62d594a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minNextGlitchTime: 1
-  maxNextGlitchTime: 4
-  movGlitchDuration: 2
-  movGlitchCooldown: 6
-  attackDamageGlitchDuration: 2
-  attackDamageGlitchCooldown: 6
+  activeGlitches: 
+  glitchDetails:
+  - glitch: 0
+    minCooldown: 1
+    maxCooldown: 2
+    duration: 2
+  - glitch: 1
+    minCooldown: 10
+    maxCooldown: 15
+    duration: 5
 --- !u!1 &914640743
 GameObject:
   m_ObjectHideFlags: 0
