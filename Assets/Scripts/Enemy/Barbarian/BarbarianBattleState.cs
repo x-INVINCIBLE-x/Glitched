@@ -63,7 +63,7 @@ public class BarbarianBattleState : EnemyState
         else if (player.position.x < enemy.transform.position.x)
             moveDir = -1;
 
-        if (Vector2.Distance(player.transform.position, enemy.transform.position) > enemy.attackDistance)
+        if (Vector2.Distance(player.transform.position, enemy.transform.position) > enemy.attackDistance && !enemy.IsPlayerCloseOnX())
         {
             enemy.SetVelocity(enemy.moveSpeed * moveDir, rb.velocity.y);
         }

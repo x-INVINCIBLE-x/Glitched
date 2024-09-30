@@ -11,7 +11,7 @@ using UnityEngine;
 //[RequireComponent(typeof(ItemDrop))]
 public class Enemy : Entity, IGlitchable
 {
-    private Player player;
+    [HideInInspector] public Player player;
     private Enemy_GlitchController glitchController;
     [HideInInspector] public Collider2D cd;
     [SerializeField] protected LayerMask whatIsPlayer;
@@ -230,6 +230,14 @@ public class Enemy : Entity, IGlitchable
 
     }
 
+    public bool IsPlayerCloseOnX()
+    {
+        Vector3 playerPosition = player.transform.position;
+        if (Mathf.Abs(transform.position.x - playerPosition.x) <= 0.5f)
+            return true;
+
+        return false;
+    }
     public virtual RaycastHit2D IsPlayerDetected() => Physics2D.Raycast(wallCheck.position, Vector2.right * facingDir, 15, whatIsPlayer);
     protected override void OnDrawGizmos()
     {
