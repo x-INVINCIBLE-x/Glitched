@@ -160,7 +160,7 @@ public class Player : Entity
 
         if (GlitchManager.GlitchedSpeed)
         {
-            if (GlitchManager.CanGlitch(Glitches.Speed))
+            if (GlitchManager.CanGlitch(PlayerGlitches.Speed))
                 speedMultiplier = Random.Range(GlitchManager.minSpeedVariation, GlitchManager.maxSpeedVariation);
             xVelocity *= speedMultiplier;
         }

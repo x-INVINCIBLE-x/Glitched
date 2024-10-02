@@ -26,6 +26,7 @@ public class Enemy : Entity, IGlitchable
     [SerializeField]private GameObject cloneDisplayEffect;
     [SerializeField] public GameObject enemyClonePrefab;
     [SerializeField] private int cloneAmount = 2;
+    public GameObject glitchCollider;
 
     [Header("Stunned info")]
     public float stunDuration = 1;

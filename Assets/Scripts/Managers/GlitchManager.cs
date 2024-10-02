@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Glitches
+public enum PlayerGlitches
 {
     Gravity = 1,
     Jump,
@@ -25,7 +25,7 @@ public class GlitchManager : MonoBehaviour
 
     public event Action onGlitchUpdate;
 
-    public List<Glitches> activeGlitches;
+    public List<PlayerGlitches> activeGlitches;
     public int maxGlitches = 1;
     public int currGlitches = 0;
     [SerializeField] private float glitchChangeCooldown = 2f;
@@ -68,12 +68,23 @@ public class GlitchManager : MonoBehaviour
         if (Time.time < lastTimeGlitchChanged + glitchChangeCooldown)
             return;
 
-        if (CheckActiveGlitches((Glitches)toGlitch))
+        if (CheckActiveGlitches((PlayerGlitches)toGlitch))
             return;
 
         if (maxGlitches == currGlitches)
-            RemoveGlitch();
+            RemoveFirstGlitch();
 
+        ActivateGlitch(toGlitch);
+
+        lastTimeGlitchChanged = Time.time;
+
+        onGlitchUpdate?.Invoke();
+        activeGlitches.Add((PlayerGlitches)toGlitch);
+        currGlitches++;
+    }
+
+    private void ActivateGlitch(int toGlitch)
+    {
         switch (toGlitch)
         {
             case 1:
@@ -93,19 +104,34 @@ public class GlitchManager : MonoBehaviour
                 break;
         }
 
-        lastTimeGlitchChanged = Time.time; 
-
         onGlitchUpdate?.Invoke();
-        activeGlitches.Add((Glitches)toGlitch);
-        currGlitches++;
     }
 
-    private void RemoveGlitch()
+    public void AddGlitch(PlayerGlitches glitch) => ActivateGlitch((int)glitch);
+    public void RemoveGlitch(PlayerGlitches glitch) => GlitchToRemove(glitch);
+
+    public void AddGlitchfor(PlayerGlitches glitch, float duration)
     {
-        Glitches glitch = activeGlitches[0];
+        StartCoroutine(AddGlitchTimer(glitch, duration));
+    }
+
+    private IEnumerator AddGlitchTimer(PlayerGlitches glitch, float duration)
+    {
+        AddGlitch(glitch);
+        yield return new WaitForSeconds(duration);
+        RemoveGlitch(glitch);
+    }
+
+    private void RemoveFirstGlitch()
+    {
+        PlayerGlitches glitch = activeGlitches[0];
         activeGlitches.RemoveAt(0);
         currGlitches--;
+        GlitchToRemove(glitch);
+    }
 
+    private void GlitchToRemove(PlayerGlitches glitch)
+    {
         if (((int)glitch) == 1)
             GlitchedGravity = false;
         else if (((int)glitch) == 2)
@@ -116,11 +142,13 @@ public class GlitchManager : MonoBehaviour
             GlitchedAttack = false;
         else if (((int)glitch) == 5)
             GlitchedDirection = false;
+
+        onGlitchUpdate?.Invoke();
     }
 
-    private bool CheckActiveGlitches(Glitches glitch)
+    private bool CheckActiveGlitches(PlayerGlitches glitch)
     {
-        foreach (Glitches activeGlitch in activeGlitches)
+        foreach (PlayerGlitches activeGlitch in activeGlitches)
         {
             if (activeGlitch == glitch) return true;
         }
@@ -128,9 +156,9 @@ public class GlitchManager : MonoBehaviour
         return false;
     }
 
-    public bool CanGlitch(Glitches glitch)
+    public bool CanGlitch(PlayerGlitches glitch)
     {
-        if (glitch == Glitches.Speed)
+        if (glitch == PlayerGlitches.Speed)
         {
             if (Time.time > lastTimeSpeedGlitched + speedGlitchCoolDown)
             {

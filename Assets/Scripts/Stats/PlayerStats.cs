@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerStats : CharacterStats
 {
     private GlitchManager glitchManager;
+    [field: SerializeField] public bool isGlitchedByTrail { get; private set; } = false;
 
     private void Start()
     {
@@ -19,5 +20,23 @@ public class PlayerStats : CharacterStats
         }
         else
             base.DoDamage(targetStats);
+    }
+
+    public void AddGlitchToPlayer(PlayerGlitches glitch, float duration)
+    {
+        glitchManager.AddGlitchfor(glitch, duration);
+    }
+
+
+    public void StartGlitchByTrail(float duration)
+    {
+        isGlitchedByTrail = true;
+        StartCoroutine(EndEffectAfter(duration));
+    }
+
+    IEnumerator EndEffectAfter(float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        isGlitchedByTrail = false;
     }
 }

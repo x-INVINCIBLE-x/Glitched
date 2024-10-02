@@ -110,14 +110,32 @@ public class Enemy_Barbarian : Enemy
         timeToReach = Random.Range(0, 1f) > 0.5f ? timeToReach : Random.Range(0, 1f) > 0.5f ? timeToReach + 0.4f : timeToReach - 0.4f;
         dashDuration = timeToReach;
 
+        StartCoroutine(GlitchTrail(timeToReach));
+
         stateMachine.ChangeState(dashState);
         return timeToReach;
+    }
+
+    IEnumerator GlitchTrail(float duration)
+    {
+        float currDuration = 0;
+        List<GameObject> glitchColliders = new();
+        while (currDuration < duration)
+        {
+            glitchColliders.Add(Instantiate(glitchCollider, transform.position, Quaternion.identity));
+            yield return new WaitForSeconds(0.15f); // has to be adjusted according to dashSpeed
+            currDuration += 0.1f;
+        }
+
+        yield return new WaitForSeconds(2f);
+
+        foreach(GameObject collider in glitchColliders)
+            Destroy(collider);
     }
 
     public override void Die()
     {
         base.Die();
         stateMachine.ChangeState(deadState);
-
     }
 }
