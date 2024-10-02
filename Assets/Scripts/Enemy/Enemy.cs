@@ -27,6 +27,7 @@ public class Enemy : Entity, IGlitchable
     [SerializeField] public GameObject enemyClonePrefab;
     [SerializeField] private int cloneAmount = 2;
     public GameObject glitchCollider;
+    [SerializeField] protected TrailRenderer trailRenderer;
 
     [Header("Stunned info")]
     public float stunDuration = 1;
@@ -63,6 +64,7 @@ public class Enemy : Entity, IGlitchable
         base.Awake();
         stateMachine = new EnemyStateMachine();
         cd = GetComponent<Collider2D>();
+        trailRenderer = GetComponentInChildren<TrailRenderer>();
         glitchController = GetComponent<Enemy_GlitchController>();
         defaultMoveSpeed = moveSpeed;
     }

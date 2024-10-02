@@ -34,6 +34,7 @@ public class Enemy_Barbarian : Enemy
     {
         base.Start();
         stateMachine.Initialize(idleState);
+        trailRenderer.enabled = false;
     }
 
 
@@ -81,7 +82,7 @@ public class Enemy_Barbarian : Enemy
         {
             distance = Mathf.Abs(transform.position.x - player.transform.position.x);
 
-            if (distance < 3f || !IsPlayerDetected())
+            if (distance < 1f || !IsPlayerDetected())
             {
                 ResetEnemy(defaultDashDuration);
                 yield break;
@@ -120,14 +121,16 @@ public class Enemy_Barbarian : Enemy
     {
         float currDuration = 0;
         List<GameObject> glitchColliders = new();
+
+        trailRenderer.enabled = true;
         while (currDuration < duration)
         {
             glitchColliders.Add(Instantiate(glitchCollider, transform.position, Quaternion.identity));
             yield return new WaitForSeconds(0.15f); // has to be adjusted according to dashSpeed
             currDuration += 0.1f;
         }
-
         yield return new WaitForSeconds(2f);
+        trailRenderer.enabled = false;
 
         foreach(GameObject collider in glitchColliders)
             Destroy(collider);
