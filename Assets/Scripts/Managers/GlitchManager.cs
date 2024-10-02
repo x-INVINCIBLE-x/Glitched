@@ -78,7 +78,6 @@ public class GlitchManager : MonoBehaviour
 
         lastTimeGlitchChanged = Time.time;
 
-        onGlitchUpdate?.Invoke();
         activeGlitches.Add((PlayerGlitches)toGlitch);
         currGlitches++;
     }

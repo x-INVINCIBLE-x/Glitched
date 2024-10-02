@@ -136,6 +136,7 @@ public class Player : Entity
 
     private void OnGlitchesUpdate()
     {
+        Debug.Log("Enter");
         if (GlitchManager.GlitchedGravity)
         {
             rb.gravityScale *= -1;

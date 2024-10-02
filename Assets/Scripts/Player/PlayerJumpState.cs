@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerJumpState : PlayerState
 {
+    bool isGravityGlitced;
     public PlayerJumpState(Player _player, PlayerStateMachine _stateMachine, string _animBoolName) : base(_player, _stateMachine, _animBoolName)
     {
     }
@@ -12,14 +13,19 @@ public class PlayerJumpState : PlayerState
     {
         base.Enter();
         xInput = 0;
-        player.SetVelocity(rb.velocity.x, player.jumpForce);
+
+        isGravityGlitced = player.GlitchManager.GlitchedGravity;
+        if (isGravityGlitced == false)
+            player.SetVelocity(rb.velocity.x, player.jumpForce);
+        else
+            player.SetVelocity(rb.velocity.x, -player.jumpForce);
     }
 
     public override void Update()
     {
         base.Update();
 
-        if (rb.velocity.y <= 0)
+        if ((rb.velocity.y <= 0 && isGravityGlitced == false) || (rb.velocity.y >= 0 && isGravityGlitced == true))
         {
             player.stateMachine.ChangeState(player.airState);
         }
@@ -28,7 +34,6 @@ public class PlayerJumpState : PlayerState
             return;
 
         player.SetVelocity(player.moveSpeed * xInput * 0.8f, rb.velocity.y);
-
     }
 
     public override void Exit()

@@ -5745,6 +5745,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3137678782601572638, guid: 1583e3310c6a22044bb60d001285e5d6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.41
+      objectReference: {fileID: 0}
     - target: {fileID: 5595263969418385526, guid: 1583e3310c6a22044bb60d001285e5d6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -6860,6 +6864,10 @@ PrefabInstance:
     - target: {fileID: 3165617053562919930, guid: 8cc22a50c6c6b6a43aba7e987a1d85cd, type: 3}
       propertyPath: m_Name
       value: Enemy_Barbarian
+      objectReference: {fileID: 0}
+    - target: {fileID: 3165617053562919930, guid: 8cc22a50c6c6b6a43aba7e987a1d85cd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5979600781073373587, guid: 8cc22a50c6c6b6a43aba7e987a1d85cd, type: 3}
       propertyPath: moveSpeed
