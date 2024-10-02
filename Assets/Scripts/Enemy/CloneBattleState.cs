@@ -27,7 +27,7 @@ public class CloneBattleState : EnemyState
             enemy.Flip();
         }
 
-        if (enemy.IsPlayerCloseOnX() && distance > enemy.attackDistance)
+        if ((enemy.IsPlayerCloseOnX() && distance > enemy.attackDistance) || (IsEnemyClose() && enemy.IsPlayerCloseOnX()))
         {
             enemy.SetZeroVelocity();
             enemy.anim.SetBool("Move", false);
@@ -50,6 +50,8 @@ public class CloneBattleState : EnemyState
             enemy.anim.SetBool("Move", false);
             enemy.anim.SetBool("Attack", true);
         }
-
     }
+
+    private bool IsEnemyClose() => Physics2D.Raycast(enemy.enemyCheck.position, Vector3.right, 0.3f, enemy.whatIsEnemy);
+    
 }

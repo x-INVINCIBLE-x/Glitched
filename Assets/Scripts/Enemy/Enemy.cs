@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -15,11 +16,16 @@ public class Enemy : Entity, IGlitchable
     private Enemy_GlitchController glitchController;
     [HideInInspector] public Collider2D cd;
     [SerializeField] protected LayerMask whatIsPlayer;
+    [SerializeField] public LayerMask whatIsEnemy;
 
     [Header("Generic Info")]
     [SerializeField] [Range(0f, 2f)] private float minAnimationSpeed;
     [SerializeField] [Range(0f, 2f)] private float maxAnimationSpeed;
     public float attackAnimationSpeed = 1f;
+    public Transform enemyCheck;
+    [SerializeField]private GameObject cloneDisplayEffect;
+    [SerializeField] public GameObject enemyClonePrefab;
+    [SerializeField] private int cloneAmount = 2;
 
     [Header("Stunned info")]
     public float stunDuration = 1;
@@ -34,7 +40,11 @@ public class Enemy : Entity, IGlitchable
     private float defaultMoveSpeed;
     private float speedMultiplier = 1f;
 
-    [Header("Attack info")]
+    [Header("Dash Info")]
+    public float dashSpeed = 10f;
+    public float dashDuration = 1f;
+
+    [Header("Specific Attack info")]
     private bool isInBattle = false;
     public float agroDistance = 2;
     public float attackDistance = 2;
@@ -167,6 +177,12 @@ public class Enemy : Entity, IGlitchable
             case Glitch.Teleportation:
                 StartCoroutine(GlitchTeleportation(glitch.Duration));
                 break;
+            case Glitch.Dublicate:
+                StartCoroutine(GlitchDublication(glitch.Duration));
+                break;
+            case Glitch.Phase:
+                StartCoroutine(GlitchPhase(glitch.Duration));
+                break;
             default:
                 Debug.Log(glitch.type + " not yet implemented");
                 break;
@@ -223,6 +239,37 @@ public class Enemy : Entity, IGlitchable
         //transform.position = startPosition; 
     }
 
+    private IEnumerator GlitchDublication(float duration)
+    {
+        //Effects before Instantiation
+        //Add Script that destroys the enemy to newly created objects
+        float[] xPositions = new float[cloneAmount];
+        List<GameObject> effects = new();
+        for (int i = 0; i < cloneAmount; i++)
+        {
+            xPositions[i] = Random.Range(player.transform.position.x + 1f, player.transform.position.x - 0.5f) * (i + 1);
+            effects.Add(Instantiate(cloneDisplayEffect, new Vector3(xPositions[i], transform.position.y, 0), Quaternion.identity));
+        }
+
+        yield return new WaitForSeconds(1.5f);
+        List<GameObject> clones = new();
+        for (int i = 0; i < cloneAmount; i++)
+        {
+            Destroy(effects[i]);
+            clones.Add(Instantiate(enemyClonePrefab, new Vector3(xPositions[i], transform.position.y, 0), Quaternion.identity));
+        }
+            
+        yield return new WaitForSeconds(duration);
+
+        foreach (GameObject clone in clones)
+            Destroy(clone);
+    }
+
+    protected virtual IEnumerator GlitchPhase(float duration)
+    {
+        yield break;
+    }
+
     public void SetInBattle(bool inBattle) => isInBattle = inBattle;
     public virtual void AnimationFinishTrigger() => stateMachine.currentState.AnimationFinishTrigger();
     public virtual void AnimationSpecialAttackTrigger()
@@ -238,7 +285,7 @@ public class Enemy : Entity, IGlitchable
 
         return false;
     }
-    public virtual RaycastHit2D IsPlayerDetected() => Physics2D.Raycast(wallCheck.position, Vector2.right * facingDir, 15, whatIsPlayer);
+    public virtual RaycastHit2D IsPlayerDetected() => Physics2D.Raycast(wallCheck.position, Vector2.right * facingDir, 50, whatIsPlayer);
     protected override void OnDrawGizmos()
     {
         base.OnDrawGizmos();

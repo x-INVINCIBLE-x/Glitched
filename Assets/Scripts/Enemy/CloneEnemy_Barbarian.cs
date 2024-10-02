@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class CloneEnemy_Barbarian : Enemy
+public class CloneEnemy_Barbarian : CloneEnemy
 {
     private CloneBattleState battleState;
 

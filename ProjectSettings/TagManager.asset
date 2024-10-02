@@ -47,6 +47,9 @@ TagManager:
   - name: Enemy
     uniqueID: 1130863475
     locked: 0
+  - name: Glitch
+    uniqueID: 1995371765
+    locked: 0
   - name: Player
     uniqueID: 522017353
     locked: 0

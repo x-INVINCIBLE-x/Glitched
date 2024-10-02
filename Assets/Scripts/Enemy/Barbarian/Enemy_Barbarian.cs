@@ -10,6 +10,7 @@ public class Enemy_Barbarian : Enemy
 
     public BarbarianIdleState idleState { get; private set; }
     public BarbarianMoveState moveState { get; private set; }
+    public BarbarianDashState dashState { get; private set; }
     public BarbarianBattleState battleState { get; private set; }
     public BarbarianAttackState attackState { get; private set; }
     public BarbarianStunnedState stunnedState { get; private set; }
@@ -22,6 +23,7 @@ public class Enemy_Barbarian : Enemy
         
         idleState = new BarbarianIdleState(this, stateMachine, "Idle", this);
         moveState = new BarbarianMoveState(this, stateMachine, "Move", this);
+        dashState = new BarbarianDashState(this, stateMachine, "Dash", this);
         battleState = new BarbarianBattleState(this, stateMachine, "Move", this);
         attackState = new BarbarianAttackState(this, stateMachine, "Attack", this);
         stunnedState = new BarbarianStunnedState(this, stateMachine, "Stunned", this);
@@ -61,6 +63,55 @@ public class Enemy_Barbarian : Enemy
         }
 
         return false;
+    }
+
+    protected override IEnumerator GlitchPhase(float duration)
+    {
+        float distance = Mathf.Abs(transform.position.x - player.transform.position.x);
+
+        if (distance < 5f || !IsPlayerDetected())
+            yield break;
+
+        float defaultDashDuration = dashDuration;
+        duration = ForceDash(distance);
+
+        yield return new WaitForSeconds(duration);
+
+        if (Random.Range(0, 1) < 0.6f)
+        {
+            distance = Mathf.Abs(transform.position.x - player.transform.position.x);
+
+            if (distance < 3f || !IsPlayerDetected())
+            {
+                ResetEnemy(defaultDashDuration);
+                yield break;
+            }
+
+            stateMachine.ChangeState(idleState);
+            yield return new WaitForSeconds(0.5f);
+            duration = ForceDash(distance);
+
+            yield return new WaitForSeconds(duration);
+        }
+
+        ResetEnemy(defaultDashDuration);
+    }
+
+    private void ResetEnemy(float defaultDashDuration)
+    {
+        stateMachine.ChangeState(attackState);
+
+        dashDuration = defaultDashDuration;
+    }
+
+    private float ForceDash(float distance)
+    {
+        float timeToReach = distance / dashSpeed;
+        timeToReach = Random.Range(0, 1f) > 0.5f ? timeToReach : Random.Range(0, 1f) > 0.5f ? timeToReach + 0.4f : timeToReach - 0.4f;
+        dashDuration = timeToReach;
+
+        stateMachine.ChangeState(dashState);
+        return timeToReach;
     }
 
     public override void Die()
