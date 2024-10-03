@@ -136,14 +136,13 @@ public class Player : Entity
 
     private void OnGlitchesUpdate()
     {
-        if (GlitchManager.GlitchedGravity)
+        if (GlitchManager.GlitchedGravity == true && rb.gravityScale > 0)
         {
             rb.gravityScale *= -1;
             groundCheckDistance *= -1;
             transform.rotation = Quaternion.Euler(180, transform.eulerAngles.y, transform.eulerAngles.z);
         }
-
-        if (!GlitchManager.GlitchedGravity && rb.gravityScale < 0)
+        else if (!GlitchManager.GlitchedGravity && rb.gravityScale < 0)
         {
             rb.gravityScale = Mathf.Abs(rb.gravityScale);
             groundCheckDistance = Mathf.Abs(groundCheckDistance);

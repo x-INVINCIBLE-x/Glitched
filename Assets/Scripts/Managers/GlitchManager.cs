@@ -32,14 +32,14 @@ public class GlitchManager : MonoBehaviour
     private float lastTimeGlitchChanged = -10f;
 
     [Header("Speed Glitch Details")]
-    [field: SerializeField][Range(0f, 1f)] public float minSpeedVariation;
-    [field: SerializeField][Range(0f, 1f)] public float maxSpeedVariation;
+    [field: SerializeField][Range(0f, 2f)] public float minSpeedVariation;
+    [field: SerializeField][Range(0f, 2f)] public float maxSpeedVariation;
     [SerializeField] private float speedGlitchCoolDown = 0.5f;
     [SerializeField] private float lastTimeSpeedGlitched = - 10f;
 
     [Header("Jump Glitch Details")]
-    [field: SerializeField][Range(0f, 1f)] public float minJumpVariation;
-    [field: SerializeField][Range(0f, 1f)] public float maxJumpVariation;
+    [field: SerializeField][Range(0f, 2f)] public float minJumpVariation;
+    [field: SerializeField][Range(0f, 2f)] public float maxJumpVariation;
 
     private void Awake()
     {

@@ -5747,7 +5747,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3137678782601572638, guid: 1583e3310c6a22044bb60d001285e5d6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.41
+      value: -1.48
       objectReference: {fileID: 0}
     - target: {fileID: 5595263969418385526, guid: 1583e3310c6a22044bb60d001285e5d6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5952,12 +5952,12 @@ MonoBehaviour:
   maxGlitches: 1
   currGlitches: 0
   glitchChangeCooldown: 2
-  minSpeedVariation: 0.164
-  maxSpeedVariation: 0.76
+  minSpeedVariation: 0.31
+  maxSpeedVariation: 1.76
   speedGlitchCoolDown: 0.5
   lastTimeSpeedGlitched: -10
   minJumpVariation: 0.305
-  maxJumpVariation: 0.799
+  maxJumpVariation: 1.56
 --- !u!1 &1706311365
 GameObject:
   m_ObjectHideFlags: 0
