@@ -35,6 +35,7 @@ public class Enemy_Barbarian : Enemy
         base.Start();
         stateMachine.Initialize(idleState);
         trailRenderer.enabled = false;
+        Stats.DeadEvent += Die;
     }
 
 

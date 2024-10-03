@@ -6,7 +6,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public enum Stats
+public enum BaseStats
 {
     Health,
     Mana,
@@ -58,9 +58,10 @@ public class CharacterStats : MonoBehaviour
     public bool isDead { get; private set; } = false;
 
     protected Dictionary<AilmentType, Action> ailmentActions;
-    public Dictionary<Stats, Stat> statDictionary;
+    public Dictionary<BaseStats, Stat> statDictionary;
 
     public event Action UpdateHUD;
+    public event Action DeadEvent;
 
     [System.Serializable]
     public class AilmentStatus
@@ -123,15 +124,15 @@ public class CharacterStats : MonoBehaviour
 
     public void InitializeStatDictionary()
     {
-        statDictionary = new Dictionary<Stats, Stat>
+        statDictionary = new Dictionary<BaseStats, Stat>
         {
-            { Stats.Health,  health },
-            { Stats.Mana,  mana },
-            { Stats.ManaRegain, manaRegain },
-            { Stats.PhysicalAtk, physicalAtk },
-            { Stats.FireAtk, fireAtk },
-            { Stats.ElectricAtk, electricAtk },
-            { Stats.PhysicalDef, physicalDef }
+            { BaseStats.Health,  health },
+            { BaseStats.Mana,  mana },
+            { BaseStats.ManaRegain, manaRegain },
+            { BaseStats.PhysicalAtk, physicalAtk },
+            { BaseStats.FireAtk, fireAtk },
+            { BaseStats.ElectricAtk, electricAtk },
+            { BaseStats.PhysicalDef, physicalDef }
         };
     }
 
@@ -266,6 +267,12 @@ public class CharacterStats : MonoBehaviour
             return;
 
         currentHealth = Mathf.Max(0f, currentHealth - damage);
+
+        if (currentHealth == 0)
+        {
+            DeadEvent?.Invoke();
+            isDead = true;
+        }
     }
 
     public void SetInvincibleFor(float time) => StartCoroutine(MakeInvincibleFor(time));

@@ -165,18 +165,24 @@ MonoBehaviour:
   whatIsEnemy:
     serializedVersion: 2
     m_Bits: 256
+  canBeGlitched: 0
   minAnimationSpeed: 0.5
   maxAnimationSpeed: 2
   attackAnimationSpeed: 1
   enemyCheck: {fileID: 9035726675965812321}
+  cloneDisplayEffect: {fileID: 0}
   enemyClonePrefab: {fileID: 0}
   cloneAmount: 2
+  glitchCollider: {fileID: 0}
+  trailRenderer: {fileID: 0}
   stunDuration: 1
   stunDirection: {x: 10, y: 12}
   counterImage: {fileID: 0}
-  moveSpeed: 5
+  moveSpeed: 9
   idleTime: 2
   battleTime: 7
+  dashSpeed: 10
+  dashDuration: 1
   agroDistance: 10
   attackDistance: 2.26
   attackCooldown: 0

@@ -19,6 +19,7 @@ public class Enemy : Entity, IGlitchable
     [SerializeField] public LayerMask whatIsEnemy;
 
     [Header("Generic Info")]
+    public bool canBeGlitched = true;
     [SerializeField] [Range(0f, 2f)] private float minAnimationSpeed;
     [SerializeField] [Range(0f, 2f)] private float maxAnimationSpeed;
     public float attackAnimationSpeed = 1f;
@@ -164,8 +165,16 @@ public class Enemy : Entity, IGlitchable
 
     }
 
+    public void Destroy(float duration = 0.5f)
+    {
+        Destroy(gameObject, duration);
+    }
+
     public void ApplyGlitch(GlitchData glitch)
     {
+        if (!canBeGlitched)
+            return;
+
         switch (glitch.type)
         {
             case Glitch.MovementSpeed:

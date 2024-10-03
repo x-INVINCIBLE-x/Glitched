@@ -14,19 +14,18 @@ public class BarbarianDeadState : EnemyState
     public override void Enter()
     {
         base.Enter();
-
-        enemy.anim.SetBool(enemy.lastAnimBoolName, true);
-        enemy.anim.speed = 0;
+        enemy.canBeGlitched = false;
+        //enemy.anim.SetBool(enemy.lastAnimBoolName, true); // Fake Death , comic jump
+        //enemy.anim.speed = 0;
         enemy.cd.enabled = false;
-
-        stateTimer = .15f;
+        enemy.rb.gravityScale = 0;
     }
 
     public override void Update()
     {
         base.Update();
-
-        if (stateTimer > 0)
-            rb.velocity = new Vector2(0, 10);
+        enemy.Destroy(5f);
+        //if (stateTimer > 0)
+        //    rb.velocity = new Vector2(0, 10);
     }
 }
