@@ -7,6 +7,7 @@ public class Enemy_Shadow : Enemy
     public ShadowIdleState idleState {  get; private set; }
     public ShadowMoveState moveState { get; private set; }
     public ShadowDashState dashState { get; private set; }
+    public ShadowDeadState deadState { get; private set; }
 
     protected override void Awake()
     {
@@ -15,6 +16,7 @@ public class Enemy_Shadow : Enemy
         idleState = new ShadowIdleState(this, stateMachine, "Idle", this);
         moveState = new ShadowMoveState(this, stateMachine, "Move", this);
         dashState = new ShadowDashState(this, stateMachine, "Move", this);
+        deadState = new ShadowDeadState(this, stateMachine, "Dead", this);
     }
 
     protected override void Start()
@@ -22,6 +24,7 @@ public class Enemy_Shadow : Enemy
         base.Start();
 
         stateMachine.Initialize(idleState);
+        Stats.DeadEvent += Die;
     }
 
     protected override IEnumerator GlitchPhase(float duration)
@@ -95,4 +98,9 @@ public class Enemy_Shadow : Enemy
             Destroy(collider);
     }
 
+    public override void Die()
+    {
+        base.Die();
+        stateMachine.ChangeState(deadState);
+    }
 }

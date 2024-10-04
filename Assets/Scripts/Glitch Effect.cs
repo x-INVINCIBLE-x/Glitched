@@ -17,9 +17,6 @@ public class GlitchEffect : MonoBehaviour
     {
         if(collision.TryGetComponent(out PlayerStats stats))
         {
-            if (stats.isGlitchedByTrail == true)
-                return;
-
             if (possibleGlitches.Length == 0)
             {
                 Debug.LogWarning("No Glitches Added In Glitch Trail Collider");

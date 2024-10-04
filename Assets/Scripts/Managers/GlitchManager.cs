@@ -41,6 +41,10 @@ public class GlitchManager : MonoBehaviour
     [field: SerializeField][Range(0f, 2f)] public float minJumpVariation;
     [field: SerializeField][Range(0f, 2f)] public float maxJumpVariation;
 
+    [Header("Temp Glitches")]
+    [SerializeField] private int tempGlitchesAmount = 3;
+    [SerializeField] private int currTempGlitches;
+
     private void Awake()
     {
         if (Instance == null)
@@ -111,14 +115,21 @@ public class GlitchManager : MonoBehaviour
 
     public void AddGlitchfor(PlayerGlitches glitch, float duration)
     {
+        if (currTempGlitches >= tempGlitchesAmount)
+            return;
+
         StartCoroutine(AddGlitchTimer(glitch, duration));
     }
 
     private IEnumerator AddGlitchTimer(PlayerGlitches glitch, float duration)
     {
         AddGlitch(glitch);
+        currTempGlitches++;
+
         yield return new WaitForSeconds(duration);
+
         RemoveGlitch(glitch);
+        currTempGlitches--;
     }
 
     private void RemoveFirstGlitch()

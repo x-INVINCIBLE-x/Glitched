@@ -5,8 +5,6 @@ using UnityEngine;
 public class PlayerStats : CharacterStats
 {
     private GlitchManager glitchManager;
-    [field: SerializeField] public int tempGlitchesAmount;
-    [field: SerializeField] public int currTempGlitches;
     [field: SerializeField] public bool isGlitchedByTrail { get; private set; } = false;
 
     private void Start()
@@ -26,10 +24,6 @@ public class PlayerStats : CharacterStats
 
     public void AddGlitchToPlayer(PlayerGlitches glitch, float duration)
     {
-        if (currTempGlitches >= tempGlitchesAmount)
-            return;
-
-        currTempGlitches++;
         glitchManager.AddGlitchfor(glitch, duration);
     }
 
