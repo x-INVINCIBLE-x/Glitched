@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BarbarianMoveState : SkeletonGroundedState
+public class BarbarianMoveState : BarbarianGroundedState
 {
     public BarbarianMoveState(Enemy _enemyBase, EnemyStateMachine _stateMachine, string _animBoolName, Enemy_Barbarian enemy) : base(_enemyBase, _stateMachine, _animBoolName, enemy)
     {

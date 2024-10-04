@@ -152,6 +152,18 @@ public class Enemy : Entity, IGlitchable
     }
     #endregion
 
+    public virtual bool CanAttack()
+    {
+        if (Time.time >= lastTimeAttacked + attackCooldown)
+        {
+            attackCooldown = Random.Range(minAttackCooldown, maxAttackCooldown);
+            lastTimeAttacked = Time.time;
+            return true;
+        }
+
+        return false;
+    }
+
     public virtual bool CanBeStunned()
     {
         if (canBeStunned)

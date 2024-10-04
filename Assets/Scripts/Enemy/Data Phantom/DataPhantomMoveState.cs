@@ -2,17 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DataPhantomMoveState : MonoBehaviour
+public class DataPhantomMoveState : DataPhantomGroundedState
 {
-    // Start is called before the first frame update
-    void Start()
+    public DataPhantomMoveState(Enemy _enemyBase, EnemyStateMachine _stateMachine, string _animBoolName, Enemy_DataPhantom enemy) : base(_enemyBase, _stateMachine, _animBoolName, enemy)
     {
-        
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void Update()
     {
-        
+        base.Update();
+
+        enemy.SetVelocity(enemy.moveSpeed * enemy.facingDir, rb.velocity.y);
+
+        if (enemy.IsWallDetected || !enemy.IsGroundDetected)
+        {
+            enemy.Flip();
+            stateMachine.ChangeState(enemy.idleState);
+        }
+
     }
+
 }

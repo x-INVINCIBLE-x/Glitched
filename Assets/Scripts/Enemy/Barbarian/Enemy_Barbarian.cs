@@ -55,18 +55,6 @@ public class Enemy_Barbarian : Enemy
         base.Update();
     }
 
-    public bool CanAttack()
-    {
-        if (Time.time >= lastTimeAttacked + attackCooldown)
-        {
-            attackCooldown = Random.Range(minAttackCooldown, maxAttackCooldown);
-            lastTimeAttacked = Time.time;
-            return true;
-        }
-
-        return false;
-    }
-
     protected override IEnumerator GlitchPhase(float duration)
     {
         float distance = Mathf.Abs(transform.position.x - player.transform.position.x);

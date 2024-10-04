@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SkeletonGroundedState : EnemyState
+public class BarbarianGroundedState : EnemyState
 {
     protected Enemy_Barbarian enemy;
     protected Transform player;
 
-    public SkeletonGroundedState(Enemy _enemyBase, EnemyStateMachine _stateMachine, string _animBoolName, Enemy_Barbarian _enemy) : base(_enemyBase, _stateMachine, _animBoolName)
+    public BarbarianGroundedState(Enemy _enemyBase, EnemyStateMachine _stateMachine, string _animBoolName, Enemy_Barbarian _enemy) : base(_enemyBase, _stateMachine, _animBoolName)
     {
         this.enemy = _enemy;
     }
@@ -28,6 +28,7 @@ public class SkeletonGroundedState : EnemyState
     {
         base.Update();
         //enemy.IsPlayerDetected().distance < enemy.agroDistance ||
+
         if (Vector2.Distance(enemy.transform.position, player.transform.position) < enemy.agroDistance)
         {
             stateMachine.ChangeState(enemy.battleState);
