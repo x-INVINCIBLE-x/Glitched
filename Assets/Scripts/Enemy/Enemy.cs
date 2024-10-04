@@ -74,6 +74,9 @@ public class Enemy : Entity, IGlitchable
     {
         base.Start();
         player = PlayerManager.instance.player.GetComponent<Player>();
+
+        if(trailRenderer != null )
+            trailRenderer.enabled = false;
         //fx = GetComponent<EntityFX>();
     }
 
@@ -174,7 +177,7 @@ public class Enemy : Entity, IGlitchable
     {
         if (!canBeGlitched)
             return;
-
+        
         switch (glitch.type)
         {
             case Glitch.MovementSpeed:
