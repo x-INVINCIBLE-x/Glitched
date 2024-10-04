@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class CloneBattleState : EnemyState
 {
-    CloneEnemy_Barbarian enemy;
+    Enemy_Clone enemy;
     int moveDir = 1;
     public CloneBattleState(Enemy _enemyBase, EnemyStateMachine _stateMachine, string _animBoolName) : base(_enemyBase, _stateMachine, _animBoolName)
     {
-        enemy = _enemyBase as CloneEnemy_Barbarian;
+        enemy = _enemyBase as Enemy_Clone;
     }
 
     public override void Update()
@@ -31,7 +31,8 @@ public class CloneBattleState : EnemyState
         {
             enemy.SetZeroVelocity();
             enemy.anim.SetBool("Move", false);
-            enemy.anim.SetBool("Attack", false);
+            if (enemy.hasAttack)
+                enemy.anim.SetBool("Attack", false);
             enemy.anim.SetBool("Idle", true);
             return;
         }
@@ -40,7 +41,8 @@ public class CloneBattleState : EnemyState
         {
             enemy.anim.SetBool("Idle", false);
             enemy.anim.SetBool("Move", true);
-            enemy.anim.SetBool("Attack", false);
+            if (enemy.hasAttack)
+                enemy.anim.SetBool("Attack", false);
             enemy.SetVelocity(enemy.moveSpeed * moveDir, enemy.rb.velocity.y);
         }
         else
@@ -48,7 +50,8 @@ public class CloneBattleState : EnemyState
             enemy.SetZeroVelocity();
             enemy.anim.SetBool("Idle", false);
             enemy.anim.SetBool("Move", false);
-            enemy.anim.SetBool("Attack", true);
+            if (enemy.hasAttack)
+                enemy.anim.SetBool("Attack", true);
         }
     }
 

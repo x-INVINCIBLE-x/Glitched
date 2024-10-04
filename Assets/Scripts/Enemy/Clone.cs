@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CloneEnemy : Enemy
+public class Clone : Enemy
 {
     protected override void OnDrawGizmos()
     {
