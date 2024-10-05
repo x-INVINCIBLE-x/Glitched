@@ -10,6 +10,9 @@ public class Enemy_Shadow : Enemy
     public ShadowExplodeState explodeState { get; private set; }
     public ShadowDeadState deadState { get; private set; }
 
+    private float damageCooldown = 0.2f;
+    private float lastTimeDamaged = -10f;
+
     [Header("Explosion Info")]
     public bool canExplode = false;
     public bool hasExploded = false;
@@ -37,6 +40,19 @@ public class Enemy_Shadow : Enemy
 
         stateMachine.Initialize(idleState);
         Stats.DeadEvent += Die;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (Time.time < lastTimeAttacked + damageCooldown)
+            return;
+        Debug.Log("enter");
+        if (collision.TryGetComponent(out PlayerStats playerStats))
+        {
+            Debug.Log("cenrte");
+            Stats.DoDamage(playerStats);
+            lastTimeDamaged = Time.time;
+        }
     }
 
     protected override IEnumerator GlitchTeleportation(float duration)

@@ -672,6 +672,13 @@ MonoBehaviour:
   minAttackCooldown: 1
   maxAttackCooldown: 2
   lastTimeAttacked: 0
+  canExplode: 0
+  hasExploded: 0
+  explosionTime: 1
+  explosiveDamage: 0
+  growSpeed: 0
+  maxSize: 0
+  explosionPrefab: {fileID: 0}
 --- !u!114 &7574146203644020743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -694,7 +701,7 @@ MonoBehaviour:
     BaseValue: 0
     statModifiers: []
   physicalAtk:
-    BaseValue: 0
+    BaseValue: 12
     statModifiers: []
   fireAtk:
     BaseValue: 0
