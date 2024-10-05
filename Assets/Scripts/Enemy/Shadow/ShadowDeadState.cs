@@ -18,12 +18,25 @@ public class ShadowDeadState : EnemyState
         //enemy.anim.speed = 0;
         enemy.cd.enabled = false;
         enemy.rb.gravityScale = 0;
+
+        if (enemy.canExplode && !enemy.hasExploded)
+        {
+            enemy.Explode();
+            enemy.Destroy(0);
+        }
+
+        if (enemy.canExplode && enemy.hasExploded)
+        {
+            enemy.Destroy(0);
+            return;
+        }
+
+        enemy.Destroy(5f);
     }
 
     public override void Update()
     {
         base.Update();
-        enemy.Destroy(5f);
         //if (stateTimer > 0)
         //    rb.velocity = new Vector2(0, 10);
     }

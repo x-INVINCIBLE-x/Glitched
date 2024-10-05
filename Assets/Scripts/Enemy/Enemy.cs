@@ -48,7 +48,7 @@ public class Enemy : Entity, IGlitchable
     public float dashDuration = 1f;
 
     [Header("Specific Attack info")]
-    private bool isInBattle = false;
+    protected bool isInBattle = false;
     public float agroDistance = 2;
     public float attackDistance = 2;
     public float attackCooldown;
@@ -244,7 +244,7 @@ public class Enemy : Entity, IGlitchable
         attackAnimationSpeed = 1f;
     }
 
-    private IEnumerator GlitchTeleportation(float duration)
+    protected virtual IEnumerator GlitchTeleportation(float duration)
     {
         if (!isInBattle)
             yield break;

@@ -22,6 +22,11 @@ public class Entity : MonoBehaviour
     [Header("Attack Info")]
     public Transform attackCheck;
     public float attackCheckRadius;
+    private int knockbackDir;
+    private Vector2 knockbackPower;
+    private bool isKnocked;
+    private Vector3 knockbackOffset;
+    private float knockbackDuration;
 
     public Rigidbody2D rb {  get; private set; }
     public Animator anim { get; private set; }
@@ -76,6 +81,39 @@ public class Entity : MonoBehaviour
     {
         yield return new WaitForSeconds(time);
         SetVelocity(xVelocity, yVelocity);
+    }
+
+    public virtual void DamageImpact() => StartCoroutine("HitKnockback");
+
+    public virtual void SetupKnockbackDir(Transform _damageDirection)
+    {
+        if (_damageDirection.position.x > transform.position.x)
+            knockbackDir = -1;
+        else if (_damageDirection.position.x < transform.position.x)
+            knockbackDir = 1;
+
+
+    }
+
+    public void SetupKnockbackPower(Vector2 _knockbackpower) => knockbackPower = _knockbackpower;
+    protected virtual IEnumerator HitKnockback()
+    {
+        isKnocked = true;
+
+        float xOffset = Random.Range(knockbackOffset.x, knockbackOffset.y);
+
+
+        if (knockbackPower.x > 0 || knockbackPower.y > 0) // This line makes player immune to freeze effect when he takes hit
+            rb.velocity = new Vector2((knockbackPower.x + xOffset) * knockbackDir, knockbackPower.y);
+
+        yield return new WaitForSeconds(knockbackDuration);
+        isKnocked = false;
+        SetupZeroKnockbackPower();
+    }
+
+    private void SetupZeroKnockbackPower()
+    {
+        
     }
 
     public void SetZeroVelocity()

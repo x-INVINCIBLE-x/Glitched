@@ -7,7 +7,18 @@ public class Enemy_Shadow : Enemy
     public ShadowIdleState idleState {  get; private set; }
     public ShadowMoveState moveState { get; private set; }
     public ShadowDashState dashState { get; private set; }
+    public ShadowExplodeState explodeState { get; private set; }
     public ShadowDeadState deadState { get; private set; }
+
+    [Header("Explosion Info")]
+    public bool canExplode = false;
+    public bool hasExploded = false;
+    public float explosionTime = 1f;
+    [SerializeField] private float explosiveDamage = 0;
+    [SerializeField] private float growSpeed;
+    [SerializeField] private float maxSize;
+    [SerializeField] private GameObject explosionPrefab;
+    private GameObject ongoingExplosion;
 
     protected override void Awake()
     {
@@ -16,6 +27,7 @@ public class Enemy_Shadow : Enemy
         idleState = new ShadowIdleState(this, stateMachine, "Idle", this);
         moveState = new ShadowMoveState(this, stateMachine, "Move", this);
         dashState = new ShadowDashState(this, stateMachine, "Move", this);
+        explodeState = new ShadowExplodeState(this, stateMachine, "Idle", this);
         deadState = new ShadowDeadState(this, stateMachine, "Dead", this);
     }
 
@@ -25,6 +37,16 @@ public class Enemy_Shadow : Enemy
 
         stateMachine.Initialize(idleState);
         Stats.DeadEvent += Die;
+    }
+
+    protected override IEnumerator GlitchTeleportation(float duration)
+    {
+        if (Vector2.Distance(transform.position, player.transform.position) < 5f)
+            isInBattle = true;
+        else
+            isInBattle = false;
+
+        return base.GlitchTeleportation(duration);
     }
 
     protected override IEnumerator GlitchPhase(float duration)
@@ -96,6 +118,21 @@ public class Enemy_Shadow : Enemy
 
         foreach (GameObject collider in glitchColliders)
             Destroy(collider);
+    }
+
+    public void Explode()
+    {
+        if (ongoingExplosion != null)
+            CancelExplode();
+
+        ongoingExplosion = Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+        ongoingExplosion.GetComponent<Explosive_Controller>().SetupExplosive(Stats, growSpeed, maxSize, attackCheckRadius, explosiveDamage);
+    }
+
+    public void CancelExplode()
+    {
+        if(ongoingExplosion != null)
+            Destroy(ongoingExplosion);
     }
 
     public override void Die()

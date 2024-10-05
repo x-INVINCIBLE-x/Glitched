@@ -26,6 +26,12 @@ public class ShadowMoveState : EnemyState
 
         enemy.SetVelocity(enemy.moveSpeed * enemy.facingDir, rb.velocity.y);
 
+        if (enemy.canExplode && Vector2.Distance(enemy.transform.position, enemy.player.transform.position) < 1f)
+        {
+            stateMachine.ChangeState(enemy.explodeState);
+            return;
+        }
+
         if (enemy.IsWallDetected || !enemy.IsGroundDetected)
         {
             enemy.Flip();

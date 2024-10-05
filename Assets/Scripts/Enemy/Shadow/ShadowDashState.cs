@@ -21,6 +21,13 @@ public class ShadowDashState : EnemyState
         base.Update();
 
         enemy.SetVelocity(enemy.dashSpeed * enemy.facingDir, 0);
+
+        if (enemy.canExplode && Vector2.Distance(enemy.transform.position, enemy.player.transform.position) < 1f)
+        {
+            stateMachine.ChangeState(enemy.explodeState);
+            return;
+        }
+
         if (stateTimer <= 0 || !enemy.IsGroundDetected || enemy.IsWallDetected)
         {
             stateMachine.ChangeState(enemy.idleState);
