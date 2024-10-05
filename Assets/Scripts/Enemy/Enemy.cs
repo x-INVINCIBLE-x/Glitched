@@ -246,7 +246,7 @@ public class Enemy : Entity, IGlitchable
 
     private IEnumerator GlitchTeleportation(float duration)
     {
-        if (isInBattle)
+        if (!isInBattle)
             yield break;
 
         Vector3 startPosition = transform.position;
