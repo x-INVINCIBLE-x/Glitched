@@ -11,13 +11,13 @@ public class Entity : MonoBehaviour
     public bool facingRight = true;
 
     [Header("Collision Check")]
-    [SerializeField] private LayerMask groundLayer;
+    [SerializeField] protected LayerMask groundLayer;
     [SerializeField] protected Transform groundCheck;
     public float groundCheckDistance;
     [Space]
 
     [SerializeField] protected Transform wallCheck;
-    [SerializeField] private float wallCheckDistance;
+    [SerializeField] protected float wallCheckDistance;
 
     [Header("Attack Info")]
     public Transform attackCheck;
