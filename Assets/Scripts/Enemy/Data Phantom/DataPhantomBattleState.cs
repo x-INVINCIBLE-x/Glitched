@@ -19,7 +19,7 @@ public class DataPhantomBattleState : DataPhantomGroundedState
 
         stateTimer = enemy.battleTime;
 
-        enemy.SetZeroVelocity();
+        //enemy.SetZeroVelocity();
 
         if (player.GetComponent<PlayerStats>().isDead)
             stateMachine.ChangeState(enemy.moveState);
@@ -28,6 +28,9 @@ public class DataPhantomBattleState : DataPhantomGroundedState
     public override void Update()
     {
         base.Update();
+
+        enemy.SetVelocity(rb.velocity.x, rb.velocity.y);
+
         SetAnimation();
         if (enemy.IsPlayerDetected())
         {
@@ -38,9 +41,10 @@ public class DataPhantomBattleState : DataPhantomGroundedState
                 if (enemy.CanAttack())
                 {
                     stateMachine.ChangeState(enemy.attackState);
+                    return; //
                 }
 
-                return;
+                //return;
             }
         }
         else
@@ -50,8 +54,8 @@ public class DataPhantomBattleState : DataPhantomGroundedState
                 stateMachine.ChangeState(enemy.idleState);
                 return;
             }
-            else
-                enemy.Flip();
+            //else
+            //    enemy.Flip();
         }
 
         if (player.position.x > enemy.transform.position.x)
@@ -64,7 +68,7 @@ public class DataPhantomBattleState : DataPhantomGroundedState
             enemy.SetVelocity(enemy.moveSpeed * moveDir, rb.velocity.y);
         }
         else
-            enemy.SetZeroVelocity();
+            enemy.SetVelocity(0, rb.velocity.y);
     }
 
     public override void Exit()

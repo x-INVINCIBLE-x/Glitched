@@ -307,7 +307,7 @@ public class Enemy : Entity, IGlitchable
     public bool IsPlayerCloseOnX()
     {
         Vector3 playerPosition = player.transform.position;
-        if (Mathf.Abs(transform.position.x - playerPosition.x) <= 0.5f)
+        if (Mathf.Abs(transform.position.x - playerPosition.x) <= 2f)
             return true;
 
         return false;

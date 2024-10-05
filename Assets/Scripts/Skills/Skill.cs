@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Skill : MonoBehaviour
 {
-    protected Player player;
+    public Player player;
 
     [SerializeField] protected float cooldown;
     private float cooldownTimer;
 
     private void Awake()
     {
-        player = GameObject.Find("Player").GetComponent<Player>();
+        //player = GameObject.Find("Player").GetComponent<Player>();
     }
 
     protected virtual void Update()
