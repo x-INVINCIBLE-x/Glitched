@@ -121,7 +121,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: move FX_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 182
+        width: 29.25
+        height: 26
+      alignment: 9
+      pivot: {x: 0.46841425, y: 0.08543572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17dc8b37e3faaa4ab3f4e2d56e5423f
+      internalID: -1517223410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: move FX_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 29.25
+        height: 26
+      alignment: 9
+      pivot: {x: 0.38944975, y: 0.07951296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89f09cad9c6e954bb1c2a51a3ac99c7
+      internalID: -1623546397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: move FX_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 29.25
+        height: 26
+      alignment: 9
+      pivot: {x: 0.3262781, y: 0.07359079}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2a408294952884eb5217286d0004f2
+      internalID: -251420315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: move FX_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 29.25
+        height: 26
+      alignment: 9
+      pivot: {x: 0.57581836, y: 0.07352154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4b77883c902314694ff74f918ae5b5
+      internalID: -270470187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: move FX_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 29.25
+        height: 26
+      alignment: 9
+      pivot: {x: 0.4591747, y: 0.08664381}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3570158cf5a71904393395c3e2a9b693
+      internalID: 313004593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: move FX_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 29.25
+        height: 26
+      alignment: 9
+      pivot: {x: 0.39416343, y: 0.07003872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d72d4e4b89dec54b832f37035f5e921
+      internalID: 1181744957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: move FX_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 29
+        height: 26
+      alignment: 9
+      pivot: {x: 0.32777858, y: 0.07887312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a29db5a4808d446b4f2aff74385722
+      internalID: 1637920722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: move FX_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 29.25
+        height: 26
+      alignment: 9
+      pivot: {x: 0.57880735, y: 0.06409626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a1d93121356d84e9e91c2eadc310c0
+      internalID: -1905043479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +300,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      move FX_0: -1517223410
+      move FX_1: -1623546397
+      move FX_2: -251420315
+      move FX_3: -270470187
+      move FX_4: 313004593
+      move FX_5: 1181744957
+      move FX_6: 1637920722
+      move FX_7: -1905043479
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

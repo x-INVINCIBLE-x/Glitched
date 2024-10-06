@@ -50,7 +50,12 @@ public class SentinelBattleState : EnemyState
         //        stateMachine.ChangeState(enemy.battleState);
         //}
 
-        enemy.SetVelocity(enemy.moveSpeed * enemy.facingDir, rb.velocity.y);
+        float distance = Mathf.Abs(enemy.transform.position.x - player.transform.position.x);
+
+        if (distance > enemy.attackDistance)
+            enemy.SetVelocity(enemy.moveSpeed * enemy.facingDir, rb.velocity.y);
+        else if(distance < enemy.attackDistance - 3f && enemy.GroundBehind())// && enemy.WallBehind())
+            enemy.SetVelocity(enemy.moveSpeed * -enemy.facingDir, rb.velocity.y);
 
         BattleStateFlipControll();
     }

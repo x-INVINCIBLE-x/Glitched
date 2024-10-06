@@ -44,6 +44,9 @@ TagManager:
   - name: Background
     uniqueID: 2226912389
     locked: 0
+  - name: FX
+    uniqueID: 434253489
+    locked: 0
   - name: Glitch
     uniqueID: 1995371765
     locked: 0

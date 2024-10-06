@@ -6,8 +6,8 @@ public class Enemy_Sentinel : Enemy
 {
 
     [Header("Archer spisifc info")]
-    [SerializeField] private GameObject arrowPrefab;
-    [SerializeField] private float arrowSpeed;
+    [SerializeField] private GameObject bulletPrefab;
+    [SerializeField] private float bulletSpeed;
     [SerializeField] private float arrowDamage;
 
     public Vector2 jumpVelocity;
@@ -41,7 +41,7 @@ public class Enemy_Sentinel : Enemy
         moveState = new SentinelMoveState(this, stateMachine, "Move", this);
         battleState = new SentinelBattleState(this, stateMachine, "Charge", this);
         attackState = new SentinelAttackState(this, stateMachine, "Attack", this);
-        deadState = new SentinelDeadState(this, stateMachine, "Move", this);
+        deadState = new SentinelDeadState(this, stateMachine, "Dead", this);
         stunnedState = new SentinelStunnedState(this, stateMachine, "Hit", this);
         jumpState = new SentinelJumpState(this, stateMachine, "Move", this);
 
@@ -52,6 +52,7 @@ public class Enemy_Sentinel : Enemy
         base.Start();
 
         stateMachine.Initialize(idleState);
+        Stats.DeadEvent += Die;
     }
 
     protected override void Update()
@@ -80,8 +81,14 @@ public class Enemy_Sentinel : Enemy
 
     public override void AnimationSpecialAttackTrigger()
     {
-        //GameObject newArrow = Instantiate(arrowPrefab, attackCheck.position, Quaternion.identity);
-        //newArrow.GetComponent<Arrow_Controller>().SetupArrow(arrowSpeed * facingDir, stats);
+        GameObject newBullet = Instantiate(bulletPrefab, attackCheck.position, Quaternion.identity);
+        newBullet.GetComponent<Bullet_Controller>().SetupBullet(bulletSpeed * facingDir, Stats);
+    }
+
+
+    protected override IEnumerator GlitchTeleportation(float duration)
+    {
+        return base.GlitchTeleportation(duration);
     }
 
     public bool GroundBehind() => Physics2D.BoxCast(groundBehindCheck.position, groundBehindCheckSize, 0, Vector2.zero,0, groundLayer);
